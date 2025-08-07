@@ -5,15 +5,8 @@ namespace ArcabeastsMain.Pages
 {
     partial class UserProfileSelection
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -25,10 +18,6 @@ namespace ArcabeastsMain.Pages
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
             this.flowProfileSlots = new System.Windows.Forms.FlowLayoutPanel();
@@ -85,6 +74,8 @@ namespace ArcabeastsMain.Pages
             // txtPlayerName
             this.txtPlayerName.Location = new System.Drawing.Point(250, 750);
             this.txtPlayerName.Size = new System.Drawing.Size(300, 30);
+            this.txtPlayerName.ForeColor = System.Drawing.Color.White;
+            this.txtPlayerName.BackColor = System.Drawing.Color.FromArgb(40, 40, 40);
             this.txtPlayerName.TextChanged += new System.EventHandler(this.TxtPlayerName_TextChanged);
 
             // lblPlayerName
@@ -96,6 +87,8 @@ namespace ArcabeastsMain.Pages
             // txtCustomName
             this.txtCustomName.Location = new System.Drawing.Point(750, 750);
             this.txtCustomName.Size = new System.Drawing.Size(300, 30);
+            this.txtCustomName.ForeColor = System.Drawing.Color.White;
+            this.txtCustomName.BackColor = System.Drawing.Color.FromArgb(40, 40, 40);
 
             // lblCustomName
             this.lblCustomName.Text = "Arcabeast Name:";
@@ -107,12 +100,16 @@ namespace ArcabeastsMain.Pages
             this.btnBack.Text = "Back";
             this.btnBack.Location = new System.Drawing.Point(150, 850);
             this.btnBack.Size = new System.Drawing.Size(150, 50);
+            this.btnBack.BackColor = System.Drawing.Color.Gray;
+            this.btnBack.ForeColor = System.Drawing.Color.White;
             this.btnBack.Click += new System.EventHandler(this.BtnBackToProfiles_Click);
 
             // btnNext
             this.btnNext.Text = "Next";
             this.btnNext.Location = new System.Drawing.Point(1620, 850);
             this.btnNext.Size = new System.Drawing.Size(150, 50);
+            this.btnNext.BackColor = System.Drawing.Color.Gray;
+            this.btnNext.ForeColor = System.Drawing.Color.White;
             this.btnNext.Enabled = false;
             this.btnNext.Click += new System.EventHandler(this.BtnNext_Click);
 
@@ -133,8 +130,11 @@ namespace ArcabeastsMain.Pages
             this.btnConfirm.Text = "Confirm";
             this.btnConfirm.Size = new Size(200, 60);
             this.btnConfirm.Location = new Point(1600, 900);
+            this.btnConfirm.BackColor = System.Drawing.Color.Gray;
+            this.btnConfirm.ForeColor = System.Drawing.Color.White;
             this.btnConfirm.Click += new System.EventHandler(this.BtnConfirm_Click);
 
+            // Add panels to main form
             this.Controls.Add(this.flowProfileSlots);
             this.Controls.Add(this.panelSelectionScreen);
             this.Controls.Add(this.panelSummary);

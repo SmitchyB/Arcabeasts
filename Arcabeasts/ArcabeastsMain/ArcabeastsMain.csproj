@@ -65,6 +65,12 @@
     <Compile Include="Pages\MainGameMenu.Designer.cs">
       <DependentUpon>MainGameMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\PostBattle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pages\PostBattle.Designer.cs">
+      <DependentUpon>PostBattle.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pages\UserProfileSelection.cs">
       <SubType>Form</SubType>
     </Compile>

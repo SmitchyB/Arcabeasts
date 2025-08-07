@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 
 namespace Arcabeasts.GameData
 {
@@ -16,12 +17,12 @@ namespace Arcabeasts.GameData
         public AbilityClass Class { get; set; }
         public int BasePower { get; set; }
         public int ManaCost { get; set; }
+        public double Velocity { get; set; } = 1;
     }
 
     public class OffensiveAbility : ArcabeastAbility
     {
         public double Accuracy { get; set; } = 1.0;
-        public double Velocity { get; set; } = 1;
         public bool IsMultiTurn { get; set; } = false;
         public int ChargeTurns { get; set; } = 0;
     }

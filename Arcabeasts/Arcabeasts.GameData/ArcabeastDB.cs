@@ -23,9 +23,23 @@ namespace Arcabeasts.GameData
                 ArcanePower = 10,
                 PhysicalDefense = 25,
                 ArcaneDefense = 14,
+                Evasiveness = 12,
                 AllowedMoveTypes = new List<string> { "Fire", "Prime" },
-                BurnDamage = 2,
-                BurnDuration = 3
+                BurnDamage = 0.15,
+                BurnDuration = 3,
+                BurnChance = 0.3,
+                isStackable = false,
+                PassiveAbilityId = new Guid("a301ed35-c3cc-4856-b0e5-0f15ed3a05f9"),
+                DamageMultipliers = new Dictionary<string, double>
+                {
+                    ["Fire"] = 1.0,
+                    ["Water"] = 0.5,
+                    ["Grass"] = 2.0,
+                    ["Electric"] = 1.5,
+                    ["Rock"] = 0.5,
+                    ["Air"] = 1.0,
+                    ["Prime"] = 1.0,
+                }
             },
 
             new FireArcabeast
@@ -42,9 +56,23 @@ namespace Arcabeasts.GameData
                 ArcanePower = 20,
                 PhysicalDefense = 30,
                 ArcaneDefense = 14,
+                Evasiveness = 8,
                 AllowedMoveTypes = new List<string> { "Fire", "Prime" },
-                BurnDamage = 2,
-                BurnDuration = 3
+                BurnDamage = 0.15,
+                BurnDuration = 3,
+                BurnChance = 0.3,
+                isStackable = false,
+                PassiveAbilityId = new Guid("a301ed35-c3cc-4856-b0e5-0f15ed3a05f9"),
+                DamageMultipliers = new Dictionary<string, double>
+                {
+                    ["Fire"] = 1.0,
+                    ["Water"] = 0.5,
+                    ["Grass"] = 2.0,
+                    ["Electric"] = 1.5,
+                    ["Rock"] = 0.5,
+                    ["Air"] = 1.0,
+                    ["Prime"] = 1.0,
+                }
             },
 
             new FireArcabeast
@@ -61,9 +89,23 @@ namespace Arcabeasts.GameData
                 ArcanePower = 35,
                 PhysicalDefense = 18,
                 ArcaneDefense = 18,
+                Evasiveness = 10,
                 AllowedMoveTypes = new List<string> { "Fire", "Prime" },
-                BurnDamage = 2,
-                BurnDuration = 3
+                BurnDamage = 0.15,
+                BurnDuration = 3,
+                BurnChance = 0.3,
+                isStackable = false,
+                PassiveAbilityId = new Guid("a301ed35-c3cc-4856-b0e5-0f15ed3a05f9"),
+                DamageMultipliers = new Dictionary<string, double>
+                {
+                    ["Fire"] = 1.0,
+                    ["Water"] = 0.5,
+                    ["Grass"] = 2.0,
+                    ["Electric"] = 1.5,
+                    ["Rock"] = 0.5,
+                    ["Air"] = 1.0,
+                    ["Prime"] = 1.0,
+                }
             },
 
             new FireArcabeast
@@ -80,9 +122,23 @@ namespace Arcabeasts.GameData
                 ArcanePower = 30,
                 PhysicalDefense = 20,
                 ArcaneDefense = 20,
+                Evasiveness = 9,
                 AllowedMoveTypes = new List<string> { "Fire", "Prime" },
-                BurnDamage = 2,
-                BurnDuration = 3
+                BurnDamage = 0.15,
+                BurnDuration = 3,
+                BurnChance = 0.3,
+                isStackable = false,
+                PassiveAbilityId = new Guid("a301ed35-c3cc-4856-b0e5-0f15ed3a05f9"),
+                DamageMultipliers = new Dictionary<string, double>
+                {
+                    ["Fire"] = 1.0,
+                    ["Water"] = 0.5,
+                    ["Grass"] = 2.0,
+                    ["Electric"] = 1.5,
+                    ["Rock"] = 0.5,
+                    ["Air"] = 1.0,
+                    ["Prime"] = 1.0,
+                }
             },
 
             new FireArcabeast
@@ -99,9 +155,23 @@ namespace Arcabeasts.GameData
                 ArcanePower = 28,
                 PhysicalDefense = 30,
                 ArcaneDefense = 24,
+                Evasiveness = 11,
                 AllowedMoveTypes = new List<string> { "Fire", "Prime" },
-                BurnDamage = 2,
-                BurnDuration = 3
+                BurnDamage = 0.15,
+                BurnDuration = 3,
+                BurnChance = 0.3,
+                isStackable = false,
+                PassiveAbilityId = new Guid("a301ed35-c3cc-4856-b0e5-0f15ed3a05f9"),
+                DamageMultipliers = new Dictionary<string, double>
+                {
+                    ["Fire"] = 1.0,
+                    ["Water"] = 0.5,
+                    ["Grass"] = 2.0,
+                    ["Electric"] = 1.5,
+                    ["Rock"] = 0.5,
+                    ["Air"] = 1.0,
+                    ["Prime"] = 1.0,
+                }
             },
 
             new FireArcabeast
@@ -118,9 +188,23 @@ namespace Arcabeasts.GameData
                 ArcanePower = 26,
                 PhysicalDefense = 24,
                 ArcaneDefense = 17,
+                Evasiveness = 13,
                 AllowedMoveTypes = new List<string> { "Fire", "Prime" },
-                BurnDamage = 2,
-                BurnDuration = 3
+                BurnDamage = 0.15,
+                BurnDuration = 3,
+                BurnChance = 0.3,
+                isStackable = false,
+                PassiveAbilityId = new Guid("a301ed35-c3cc-4856-b0e5-0f15ed3a05f9"),
+                DamageMultipliers = new Dictionary<string, double>
+                {
+                    ["Fire"] = 1.0,
+                    ["Water"] = 0.5,
+                    ["Grass"] = 2.0,
+                    ["Electric"] = 1.5,
+                    ["Rock"] = 0.5,
+                    ["Air"] = 1.0,
+                    ["Prime"] = 1.0,
+                }
             },
 
             new WaterArcabeast
@@ -137,8 +221,22 @@ namespace Arcabeasts.GameData
                 ArcanePower = 28,
                 PhysicalDefense = 18,
                 ArcaneDefense = 16,
+                Evasiveness = 13,
                 AllowedMoveTypes = new List<string> { "Water", "Prime" },
-                DampenManaDrain = 15
+                DampenManaDrain = 0.15,
+                DampenChance = 0.3,
+                isStackable = false,
+                PassiveAbilityId = new Guid("c346c96d-31c1-4c85-9c1f-fdc06b271fad"),
+                DamageMultipliers = new Dictionary<string, double>
+                {
+                    ["Fire"] = 2.0,
+                    ["Water"] = 1.0,
+                    ["Grass"] = 0.5,
+                    ["Electric"] = 1.0,
+                    ["Rock"] = 1.5,
+                    ["Air"] = 0.5,
+                    ["Prime"] = 1.0,
+                }
             },
 
             new WaterArcabeast
@@ -155,8 +253,22 @@ namespace Arcabeasts.GameData
                 ArcanePower = 22,
                 PhysicalDefense = 24,
                 ArcaneDefense = 20,
+                Evasiveness = 11,
                 AllowedMoveTypes = new List<string> { "Water", "Prime" },
-                DampenManaDrain = 15
+                DampenManaDrain = 0.15,
+                DampenChance = 0.3,
+                isStackable = false,
+                PassiveAbilityId = new Guid("c346c96d-31c1-4c85-9c1f-fdc06b271fad"),
+                DamageMultipliers = new Dictionary<string, double>
+                {
+                    ["Fire"] = 2.0,
+                    ["Water"] = 1.0,
+                    ["Grass"] = 0.5,
+                    ["Electric"] = 1.0,
+                    ["Rock"] = 1.5,
+                    ["Air"] = 0.5,
+                    ["Prime"] = 1.0,
+                }
             },
 
             new WaterArcabeast
@@ -173,8 +285,22 @@ namespace Arcabeasts.GameData
                 ArcanePower = 26,
                 PhysicalDefense = 22,
                 ArcaneDefense = 16,
+                Evasiveness = 12,
                 AllowedMoveTypes = new List<string> { "Water", "Prime" },
-                DampenManaDrain = 15
+                DampenManaDrain = 0.15,
+                DampenChance = 0.3,
+                isStackable = false,
+                PassiveAbilityId = new Guid("c346c96d-31c1-4c85-9c1f-fdc06b271fad"),
+                DamageMultipliers = new Dictionary<string, double>
+                {
+                    ["Fire"] = 2.0,
+                    ["Water"] = 1.0,
+                    ["Grass"] = 0.5,
+                    ["Electric"] = 1.0,
+                    ["Rock"] = 1.5,
+                    ["Air"] = 0.5,
+                    ["Prime"] = 1.0,
+                }
             },
 
             new WaterArcabeast
@@ -191,8 +317,22 @@ namespace Arcabeasts.GameData
                 ArcanePower = 28,
                 PhysicalDefense = 24,
                 ArcaneDefense = 24,
+                Evasiveness = 10,
                 AllowedMoveTypes = new List<string> { "Water", "Prime" },
-                DampenManaDrain = 15
+                DampenManaDrain = 0.15,
+                DampenChance = 0.3,
+                isStackable = false,
+                PassiveAbilityId = new Guid("c346c96d-31c1-4c85-9c1f-fdc06b271fad"),
+                DamageMultipliers = new Dictionary<string, double>
+                {
+                    ["Fire"] = 2.0,
+                    ["Water"] = 1.0,
+                    ["Grass"] = 0.5,
+                    ["Electric"] = 1.0,
+                    ["Rock"] = 1.5,
+                    ["Air"] = 0.5,
+                    ["Prime"] = 1.0,
+                }
             },
 
             new WaterArcabeast
@@ -209,8 +349,22 @@ namespace Arcabeasts.GameData
                 ArcanePower = 36,
                 PhysicalDefense = 26,
                 ArcaneDefense = 25,
+                Evasiveness = 9,
                 AllowedMoveTypes = new List<string> { "Water", "Prime" },
-                DampenManaDrain = 15
+                DampenManaDrain = 0.15,
+                DampenChance = 0.3,
+                isStackable = false,
+                PassiveAbilityId = new Guid("c346c96d-31c1-4c85-9c1f-fdc06b271fad"),
+                DamageMultipliers = new Dictionary<string, double>
+                {
+                    ["Fire"] = 2.0,
+                    ["Water"] = 1.0,
+                    ["Grass"] = 0.5,
+                    ["Electric"] = 1.0,
+                    ["Rock"] = 1.5,
+                    ["Air"] = 0.5,
+                    ["Prime"] = 1.0,
+                }
             },
 
             new WaterArcabeast
@@ -227,8 +381,22 @@ namespace Arcabeasts.GameData
                 ArcanePower = 24,
                 PhysicalDefense = 22,
                 ArcaneDefense = 22,
+                Evasiveness = 10,
                 AllowedMoveTypes = new List<string> { "Water", "Prime" },
-                DampenManaDrain = 15
+                DampenManaDrain = 0.15,
+                DampenChance = 0.3,
+                isStackable = false,
+                PassiveAbilityId = new Guid("c346c96d-31c1-4c85-9c1f-fdc06b271fad"),
+                DamageMultipliers = new Dictionary<string, double>
+                {
+                    ["Fire"] = 2.0,
+                    ["Water"] = 1.0,
+                    ["Grass"] = 0.5,
+                    ["Electric"] = 1.0,
+                    ["Rock"] = 1.5,
+                    ["Air"] = 0.5,
+                    ["Prime"] = 1.0,
+                }
             },
 
             new GrassArcabeast
@@ -245,9 +413,23 @@ namespace Arcabeasts.GameData
                 ArcanePower = 30,
                 PhysicalDefense = 28,
                 ArcaneDefense = 18,
+                Evasiveness = 11,
                 AllowedMoveTypes = new List<string> { "Grass", "Prime" },
-                PoisonDamage = 4,
-                PoisonDuration = 3
+                PoisonDamage = 0.15,
+                PoisonDuration = 3,
+                PoisonChance = 0.3,
+                isStackable = false,
+                PassiveAbilityId = new Guid("b2424e19-d2ef-495a-b2c9-6c5cbe2b7b2d"),
+                DamageMultipliers = new Dictionary<string, double>
+                {
+                    ["Fire"] = 0.5,
+                    ["Water"] = 2.0,
+                    ["Grass"] = 1.0,
+                    ["Electric"] = 0.5,
+                    ["Rock"] = 1.5,
+                    ["Air"] = 1.0,
+                    ["Prime"] = 1.0,
+                }
             },
 
             new GrassArcabeast
@@ -264,9 +446,23 @@ namespace Arcabeasts.GameData
                 ArcanePower = 26,
                 PhysicalDefense = 28,
                 ArcaneDefense = 19,
+                Evasiveness = 13,
                 AllowedMoveTypes = new List<string> { "Grass", "Prime" },
-                PoisonDamage = 4,
-                PoisonDuration = 3
+                PoisonDamage = 0.15,
+                PoisonDuration = 3,
+                PoisonChance = 0.3,
+                isStackable = false,
+                PassiveAbilityId = new Guid("b2424e19-d2ef-495a-b2c9-6c5cbe2b7b2d"),
+                DamageMultipliers = new Dictionary<string, double>
+                {
+                    ["Fire"] = 0.5,
+                    ["Water"] = 2.0,
+                    ["Grass"] = 1.0,
+                    ["Electric"] = 0.5,
+                    ["Rock"] = 1.5,
+                    ["Air"] = 1.0,
+                    ["Prime"] = 1.0,
+                }
             },
 
             new GrassArcabeast
@@ -283,9 +479,23 @@ namespace Arcabeasts.GameData
                 ArcanePower = 26,
                 PhysicalDefense = 24,
                 ArcaneDefense = 26,
+                Evasiveness = 10,
                 AllowedMoveTypes = new List<string> { "Grass", "Prime" },
-                PoisonDamage = 4,
-                PoisonDuration = 3
+                PoisonDamage = 0.15,
+                PoisonDuration = 3,
+                PoisonChance = 0.3,
+                isStackable = false,
+                PassiveAbilityId = new Guid("b2424e19-d2ef-495a-b2c9-6c5cbe2b7b2d"),
+                DamageMultipliers = new Dictionary<string, double>
+                {
+                    ["Fire"] = 0.5,
+                    ["Water"] = 2.0,
+                    ["Grass"] = 1.0,
+                    ["Electric"] = 0.5,
+                    ["Rock"] = 1.5,
+                    ["Air"] = 1.0,
+                    ["Prime"] = 1.0,
+                }
             },
 
             new GrassArcabeast
@@ -302,9 +512,23 @@ namespace Arcabeasts.GameData
                 ArcanePower = 22,
                 PhysicalDefense = 26,
                 ArcaneDefense = 28,
+                Evasiveness = 9,
                 AllowedMoveTypes = new List<string> { "Grass", "Prime" },
-                PoisonDamage = 4,
-                PoisonDuration = 3
+                PoisonDamage = 0.15,
+                PoisonDuration = 3,
+                PoisonChance = 0.3,
+                isStackable = false,
+                PassiveAbilityId = new Guid("b2424e19-d2ef-495a-b2c9-6c5cbe2b7b2d"),
+                DamageMultipliers = new Dictionary<string, double>
+                {
+                    ["Fire"] = 0.5,
+                    ["Water"] = 2.0,
+                    ["Grass"] = 1.0,
+                    ["Electric"] = 0.5,
+                    ["Rock"] = 1.5,
+                    ["Air"] = 1.0,
+                    ["Prime"] = 1.0,
+                }
             },
 
             new GrassArcabeast
@@ -321,9 +545,23 @@ namespace Arcabeasts.GameData
                 ArcanePower = 28,
                 PhysicalDefense = 25,
                 ArcaneDefense = 26,
+                Evasiveness = 10,
                 AllowedMoveTypes = new List<string> { "Grass", "Prime" },
-                PoisonDamage = 4,
-                PoisonDuration = 3
+                PoisonDamage = 0.15,
+                PoisonDuration = 3,
+                PoisonChance = 0.3,
+                isStackable = false,
+                PassiveAbilityId = new Guid("b2424e19-d2ef-495a-b2c9-6c5cbe2b7b2d"),
+                DamageMultipliers = new Dictionary<string, double>
+                {
+                    ["Fire"] = 0.5,
+                    ["Water"] = 2.0,
+                    ["Grass"] = 1.0,
+                    ["Electric"] = 0.5,
+                    ["Rock"] = 1.5,
+                    ["Air"] = 1.0,
+                    ["Prime"] = 1.0,
+                }
             },
 
             new GrassArcabeast
@@ -340,9 +578,23 @@ namespace Arcabeasts.GameData
                 ArcanePower = 30,
                 PhysicalDefense = 24,
                 ArcaneDefense = 22,
+                Evasiveness = 12,
                 AllowedMoveTypes = new List<string> { "Grass", "Prime" },
-                PoisonDamage = 4,
-                PoisonDuration = 3
+                PoisonDamage = 0.15,
+                PoisonDuration = 3,
+                PoisonChance = 0.3,
+                isStackable = false,
+                PassiveAbilityId = new Guid("b2424e19-d2ef-495a-b2c9-6c5cbe2b7b2d"),
+                DamageMultipliers = new Dictionary<string, double>
+                {
+                    ["Fire"] = 0.5,
+                    ["Water"] = 2.0,
+                    ["Grass"] = 1.0,
+                    ["Electric"] = 0.5,
+                    ["Rock"] = 1.5,
+                    ["Air"] = 1.0,
+                    ["Prime"] = 1.0,
+                }
             },
 
             new ElectricArcabeast
@@ -359,10 +611,23 @@ namespace Arcabeasts.GameData
                 ArcanePower = 26,
                 PhysicalDefense = 24,
                 ArcaneDefense = 24,
+                Evasiveness = 11,
                 AllowedMoveTypes = new List<string> { "Electric", "Prime" },
-                ShockDamagePerTurn = 2,
+                ShockDamagePerTurn = 0.15,
                 ShockStunChance = 0.25,
-                ShockStunDuration = 2
+                ShockStunDuration = 2,
+                isStackable = false,
+                PassiveAbilityId = new Guid("e6d99130-bcc4-49f6-a2d5-4d46c1a446b3"),
+                DamageMultipliers = new Dictionary<string, double>
+                {
+                    ["Fire"] = 1.0,
+                    ["Water"] = 2.0,
+                    ["Grass"] = 0.5,
+                    ["Electric"] = 1.0,
+                    ["Rock"] = 0.5,
+                    ["Air"] = 1.5,
+                    ["Prime"] = 1.0,
+                }
             },
 
             new ElectricArcabeast
@@ -379,10 +644,23 @@ namespace Arcabeasts.GameData
                 ArcanePower = 30,
                 PhysicalDefense = 24,
                 ArcaneDefense = 28,
+                Evasiveness = 10,
                 AllowedMoveTypes = new List<string> { "Electric", "Prime" },
-                ShockDamagePerTurn = 2,
+                ShockDamagePerTurn = 0.15,
                 ShockStunChance = 0.25,
-                ShockStunDuration = 2
+                ShockStunDuration = 2,
+                isStackable = false,
+                PassiveAbilityId = new Guid("e6d99130-bcc4-49f6-a2d5-4d46c1a446b3"),
+                DamageMultipliers = new Dictionary<string, double>
+                {
+                    ["Fire"] = 1.0,
+                    ["Water"] = 2.0,
+                    ["Grass"] = 0.5,
+                    ["Electric"] = 1.0,
+                    ["Rock"] = 0.5,
+                    ["Air"] = 1.5,
+                    ["Prime"] = 1.0,
+                }
             },
 
             new ElectricArcabeast
@@ -399,10 +677,23 @@ namespace Arcabeasts.GameData
                 ArcanePower = 24,
                 PhysicalDefense = 28,
                 ArcaneDefense = 22,
+                Evasiveness = 11,
                 AllowedMoveTypes = new List<string> { "Electric", "Prime" },
-                ShockDamagePerTurn = 2,
+                ShockDamagePerTurn = 0.15,
                 ShockStunChance = 0.25,
-                ShockStunDuration = 2
+                ShockStunDuration = 2,
+                isStackable = false,
+                PassiveAbilityId = new Guid("e6d99130-bcc4-49f6-a2d5-4d46c1a446b3"),
+                DamageMultipliers = new Dictionary<string, double>
+                {
+                    ["Fire"] = 1.0,
+                    ["Water"] = 2.0,
+                    ["Grass"] = 0.5,
+                    ["Electric"] = 1.0,
+                    ["Rock"] = 0.5,
+                    ["Air"] = 1.5,
+                    ["Prime"] = 1.0,
+                }
             },
 
             new ElectricArcabeast
@@ -419,10 +710,23 @@ namespace Arcabeasts.GameData
                 ArcanePower = 22,
                 PhysicalDefense = 24,
                 ArcaneDefense = 24,
+                Evasiveness = 13,
                 AllowedMoveTypes = new List<string> { "Electric", "Prime" },
-                ShockDamagePerTurn = 2,
+                ShockDamagePerTurn = 0.15,
                 ShockStunChance = 0.25,
-                ShockStunDuration = 2
+                ShockStunDuration = 2,
+                isStackable = false,
+                PassiveAbilityId = new Guid("e6d99130-bcc4-49f6-a2d5-4d46c1a446b3"),
+                DamageMultipliers = new Dictionary<string, double>
+                {
+                    ["Fire"] = 1.0,
+                    ["Water"] = 2.0,
+                    ["Grass"] = 0.5,
+                    ["Electric"] = 1.0,
+                    ["Rock"] = 0.5,
+                    ["Air"] = 1.5,
+                    ["Prime"] = 1.0,
+                }
             },
 
             new ElectricArcabeast
@@ -439,10 +743,23 @@ namespace Arcabeasts.GameData
                 ArcanePower = 26,
                 PhysicalDefense = 26,
                 ArcaneDefense = 24,
+                Evasiveness = 11,
                 AllowedMoveTypes = new List<string> { "Electric", "Prime" },
-                ShockDamagePerTurn = 2,
+                ShockDamagePerTurn = 0.15,
                 ShockStunChance = 0.25,
-                ShockStunDuration = 2
+                ShockStunDuration = 2,
+                isStackable = false,
+                PassiveAbilityId = new Guid("e6d99130-bcc4-49f6-a2d5-4d46c1a446b3"),
+                DamageMultipliers = new Dictionary<string, double>
+                {
+                    ["Fire"] = 1.0,
+                    ["Water"] = 2.0,
+                    ["Grass"] = 0.5,
+                    ["Electric"] = 1.0,
+                    ["Rock"] = 0.5,
+                    ["Air"] = 1.5,
+                    ["Prime"] = 1.0,
+                }
             },
 
             new ElectricArcabeast
@@ -459,10 +776,23 @@ namespace Arcabeasts.GameData
                 ArcanePower = 26,
                 PhysicalDefense = 24,
                 ArcaneDefense = 24,
+                Evasiveness = 12,
                 AllowedMoveTypes = new List<string> { "Electric", "Prime" },
-                ShockDamagePerTurn = 2,
+                ShockDamagePerTurn = 0.15,
                 ShockStunChance = 0.25,
-                ShockStunDuration = 2
+                ShockStunDuration = 2,
+                isStackable = false,
+                PassiveAbilityId = new Guid("e6d99130-bcc4-49f6-a2d5-4d46c1a446b3"),
+                DamageMultipliers = new Dictionary<string, double>
+                {
+                    ["Fire"] = 1.0,
+                    ["Water"] = 2.0,
+                    ["Grass"] = 0.5,
+                    ["Electric"] = 1.0,
+                    ["Rock"] = 0.5,
+                    ["Air"] = 1.5,
+                    ["Prime"] = 1.0,
+                }
             },
             new RockArcabeast
             {
@@ -478,9 +808,22 @@ namespace Arcabeasts.GameData
                 ArcanePower = 20,
                 PhysicalDefense = 40,
                 ArcaneDefense = 28,
+                Evasiveness = 8,
                 AllowedMoveTypes = new List<string> { "Rock", "Prime" },
-                GuardBreakAmount = 10,
-                GuardBreakChance = 20
+                GuardBreakAmount = 0.20,
+                GuardBreakChance = 20,
+                isStackable = false,
+                PassiveAbilityId = new Guid("1a5e2eae-44bc-47c7-b6f9-0dff83e41021"),
+                DamageMultipliers = new Dictionary<string, double>
+                {
+                    ["Fire"] = 2.0,
+                    ["Water"] = 0.5,
+                    ["Grass"] = 1.5,
+                    ["Electric"] = 1.0,
+                    ["Rock"] = 1.0,
+                    ["Air"] = 0.5,
+                    ["Prime"] = 1.0,
+                }
             },
 
             new RockArcabeast
@@ -497,9 +840,22 @@ namespace Arcabeasts.GameData
                 ArcanePower = 20,
                 PhysicalDefense = 36,
                 ArcaneDefense = 28,
+                Evasiveness = 9,
                 AllowedMoveTypes = new List<string> { "Rock", "Prime" },
-                GuardBreakAmount = 10,
-                GuardBreakChance = 20
+                GuardBreakAmount = 0.20,
+                GuardBreakChance = 20,
+                isStackable = false,
+                PassiveAbilityId = new Guid("1a5e2eae-44bc-47c7-b6f9-0dff83e41021"),
+                DamageMultipliers = new Dictionary<string, double>
+                {
+                    ["Fire"] = 2.0,
+                    ["Water"] = 0.5,
+                    ["Grass"] = 1.5,
+                    ["Electric"] = 1.0,
+                    ["Rock"] = 1.0,
+                    ["Air"] = 0.5,
+                    ["Prime"] = 1.0,
+                }
             },
 
             new RockArcabeast
@@ -516,9 +872,22 @@ namespace Arcabeasts.GameData
                 ArcanePower = 22,
                 PhysicalDefense = 42,
                 ArcaneDefense = 26,
+                Evasiveness = 7,
                 AllowedMoveTypes = new List<string> { "Rock", "Prime" },
-                GuardBreakAmount = 10,
-                GuardBreakChance = 20
+                GuardBreakAmount = 0.20,
+                GuardBreakChance = 20,
+                isStackable = false,
+                PassiveAbilityId = new Guid("1a5e2eae-44bc-47c7-b6f9-0dff83e41021"),
+                DamageMultipliers = new Dictionary<string, double>
+                {
+                    ["Fire"] = 2.0,
+                    ["Water"] = 0.5,
+                    ["Grass"] = 1.5,
+                    ["Electric"] = 1.0,
+                    ["Rock"] = 1.0,
+                    ["Air"] = 0.5,
+                    ["Prime"] = 1.0,
+                }
             },
 
             new RockArcabeast
@@ -535,9 +904,22 @@ namespace Arcabeasts.GameData
                 ArcanePower = 26,
                 PhysicalDefense = 38,
                 ArcaneDefense = 24,
+                Evasiveness = 8,
                 AllowedMoveTypes = new List<string> { "Rock", "Prime" },
-                GuardBreakAmount = 10,
-                GuardBreakChance = 20
+                GuardBreakAmount = 0.20,
+                GuardBreakChance = 20,
+                isStackable = false,
+                PassiveAbilityId = new Guid("1a5e2eae-44bc-47c7-b6f9-0dff83e41021"),
+                DamageMultipliers = new Dictionary<string, double>
+                {
+                    ["Fire"] = 2.0,
+                    ["Water"] = 0.5,
+                    ["Grass"] = 1.5,
+                    ["Electric"] = 1.0,
+                    ["Rock"] = 1.0,
+                    ["Air"] = 0.5,
+                    ["Prime"] = 1.0,
+                }
             },
 
             new RockArcabeast
@@ -554,9 +936,22 @@ namespace Arcabeasts.GameData
                 ArcanePower = 24,
                 PhysicalDefense = 42,
                 ArcaneDefense = 24,
+                Evasiveness = 8,
                 AllowedMoveTypes = new List<string> { "Rock", "Prime" },
-                GuardBreakAmount = 10,
-                GuardBreakChance = 20
+                GuardBreakAmount = 0.20,
+                GuardBreakChance = 20,
+                isStackable = false,
+                PassiveAbilityId = new Guid("1a5e2eae-44bc-47c7-b6f9-0dff83e41021"),
+                DamageMultipliers = new Dictionary<string, double>
+                {
+                    ["Fire"] = 2.0,
+                    ["Water"] = 0.5,
+                    ["Grass"] = 1.5,
+                    ["Electric"] = 1.0,
+                    ["Rock"] = 1.0,
+                    ["Air"] = 0.5,
+                    ["Prime"] = 1.0,
+                }
             },
 
             new RockArcabeast
@@ -573,9 +968,22 @@ namespace Arcabeasts.GameData
                 ArcanePower = 24,
                 PhysicalDefense = 40,
                 ArcaneDefense = 24,
+                Evasiveness = 8,
                 AllowedMoveTypes = new List<string> { "Rock", "Prime" },
-                GuardBreakAmount = 10,
-                GuardBreakChance = 20
+                GuardBreakAmount = 0.20,
+                GuardBreakChance = 20,
+                isStackable = false,
+                PassiveAbilityId = new Guid("1a5e2eae-44bc-47c7-b6f9-0dff83e41021"),
+                DamageMultipliers = new Dictionary<string, double>
+                {
+                    ["Fire"] = 2.0,
+                    ["Water"] = 0.5,
+                    ["Grass"] = 1.5,
+                    ["Electric"] = 1.0,
+                    ["Rock"] = 1.0,
+                    ["Air"] = 0.5,
+                    ["Prime"] = 1.0,
+                }
             },
 
             new AirArcabeast
@@ -592,10 +1000,23 @@ namespace Arcabeasts.GameData
                 ArcanePower = 28,
                 PhysicalDefense = 18,
                 ArcaneDefense = 18,
+                Evasiveness = 16,
                 AllowedMoveTypes = new List<string> { "Air", "Prime" },
                 EvasionBoostChance = 0.2,
                 EvasionBoostDuration = 2,
-                EvasionBoostAmount = 10
+                EvasionBoostAmount = 0.20,
+                isStackable = false,
+                PassiveAbilityId = new Guid("79cefae3-59a6-49b6-b6ec-20b8efbf7708"),
+                DamageMultipliers = new Dictionary<string, double>
+                {
+                    ["Fire"] = 0.5,
+                    ["Water"] = 1.0,
+                    ["Grass"] = 2.0,
+                    ["Electric"] = 0.5,
+                    ["Rock"] = 1.5,
+                    ["Air"] = 1.0,
+                    ["Prime"] = 1.0,
+                }
             },
 
             new AirArcabeast
@@ -612,10 +1033,23 @@ namespace Arcabeasts.GameData
                 ArcanePower = 22,
                 PhysicalDefense = 22,
                 ArcaneDefense = 20,
+                Evasiveness = 14,
                 AllowedMoveTypes = new List<string> { "Air", "Prime" },
                 EvasionBoostChance = 0.2,
                 EvasionBoostDuration = 2,
-                EvasionBoostAmount = 10
+                EvasionBoostAmount = 0.20,
+                isStackable = false,
+                PassiveAbilityId = new Guid("79cefae3-59a6-49b6-b6ec-20b8efbf7708"),
+                DamageMultipliers = new Dictionary<string, double>
+                {
+                    ["Fire"] = 0.5,
+                    ["Water"] = 1.0,
+                    ["Grass"] = 2.0,
+                    ["Electric"] = 0.5,
+                    ["Rock"] = 1.5,
+                    ["Air"] = 1.0,
+                    ["Prime"] = 1.0,
+                }
             },
 
             new AirArcabeast
@@ -632,10 +1066,23 @@ namespace Arcabeasts.GameData
                 ArcanePower = 26,
                 PhysicalDefense = 22,
                 ArcaneDefense = 20,
+                Evasiveness = 13,
                 AllowedMoveTypes = new List<string> { "Air", "Prime" },
                 EvasionBoostChance = 0.2,
                 EvasionBoostDuration = 2,
-                EvasionBoostAmount = 10
+                EvasionBoostAmount = 0.20,
+                isStackable = false,
+                PassiveAbilityId = new Guid("79cefae3-59a6-49b6-b6ec-20b8efbf7708"),
+                DamageMultipliers = new Dictionary<string, double>
+                {
+                    ["Fire"] = 0.5,
+                    ["Water"] = 1.0,
+                    ["Grass"] = 2.0,
+                    ["Electric"] = 0.5,
+                    ["Rock"] = 1.5,
+                    ["Air"] = 1.0,
+                    ["Prime"] = 1.0,
+                }
             },
 
             new AirArcabeast
@@ -652,10 +1099,23 @@ namespace Arcabeasts.GameData
                 ArcanePower = 28,
                 PhysicalDefense = 20,
                 ArcaneDefense = 20,
+                Evasiveness = 15,
                 AllowedMoveTypes = new List<string> { "Air", "Prime" },
                 EvasionBoostChance = 0.2,
                 EvasionBoostDuration = 2,
-                EvasionBoostAmount = 10
+                EvasionBoostAmount = 0.20,
+                isStackable = false,
+                PassiveAbilityId = new Guid("79cefae3-59a6-49b6-b6ec-20b8efbf7708"),
+                DamageMultipliers = new Dictionary<string, double>
+                {
+                    ["Fire"] = 0.5,
+                    ["Water"] = 1.0,
+                    ["Grass"] = 2.0,
+                    ["Electric"] = 0.5,
+                    ["Rock"] = 1.5,
+                    ["Air"] = 1.0,
+                    ["Prime"] = 1.0,
+                }
             },
 
             new AirArcabeast
@@ -672,10 +1132,23 @@ namespace Arcabeasts.GameData
                 ArcanePower = 26,
                 PhysicalDefense = 20,
                 ArcaneDefense = 19,
+                Evasiveness = 15,
                 AllowedMoveTypes = new List<string> { "Air", "Prime" },
                 EvasionBoostChance = 0.2,
                 EvasionBoostDuration = 2,
-                EvasionBoostAmount = 10
+                EvasionBoostAmount = 0.20,
+                isStackable = false,
+                PassiveAbilityId = new Guid("79cefae3-59a6-49b6-b6ec-20b8efbf7708"),
+                DamageMultipliers = new Dictionary<string, double>
+                {
+                    ["Fire"] = 0.5,
+                    ["Water"] = 1.0,
+                    ["Grass"] = 2.0,
+                    ["Electric"] = 0.5,
+                    ["Rock"] = 1.5,
+                    ["Air"] = 1.0,
+                    ["Prime"] = 1.0,
+                }
             },
 
             new AirArcabeast
@@ -692,10 +1165,23 @@ namespace Arcabeasts.GameData
                 ArcanePower = 24,
                 PhysicalDefense = 20,
                 ArcaneDefense = 22,
+                Evasiveness = 14,
                 AllowedMoveTypes = new List<string> { "Air", "Prime" },
                 EvasionBoostChance = 0.2,
                 EvasionBoostDuration = 2,
-                EvasionBoostAmount = 10
+                EvasionBoostAmount = 0.20,
+                isStackable = false,
+                PassiveAbilityId = new Guid("79cefae3-59a6-49b6-b6ec-20b8efbf7708"),
+                DamageMultipliers = new Dictionary<string, double>
+                {
+                    ["Fire"] = 0.5,
+                    ["Water"] = 1.0,
+                    ["Grass"] = 2.0,
+                    ["Electric"] = 0.5,
+                    ["Rock"] = 1.5,
+                    ["Air"] = 1.0,
+                    ["Prime"] = 1.0,
+                }
             },
 
             new PrimeArcabeast
@@ -712,7 +1198,18 @@ namespace Arcabeasts.GameData
                 ArcanePower = 20,
                 PhysicalDefense = 36,
                 ArcaneDefense = 36,
+                Evasiveness = 13,
                 AllowedMoveTypes = new List<string> { "Prime", "Prime" },
+                DamageMultipliers = new Dictionary<string, double>
+                {
+                    ["Fire"] = 1.0,
+                    ["Water"] = 1.0,
+                    ["Grass"] = 1.0,
+                    ["Electric"] = 1.0,
+                    ["Rock"] = 1.0,
+                    ["Air"] = 1.0,
+                    ["Prime"] = 1.0,
+                }
             },
 
             new PrimeArcabeast
@@ -729,7 +1226,18 @@ namespace Arcabeasts.GameData
                 ArcanePower = 18,
                 PhysicalDefense = 38,
                 ArcaneDefense = 36,
+                Evasiveness = 12,
                 AllowedMoveTypes = new List<string> { "Prime", "Prime" },
+                DamageMultipliers = new Dictionary<string, double>
+                {
+                    ["Fire"] = 1.0,
+                    ["Water"] = 1.0,
+                    ["Grass"] = 1.0,
+                    ["Electric"] = 1.0,
+                    ["Rock"] = 1.0,
+                    ["Air"] = 1.0,
+                    ["Prime"] = 1.0,
+                }
             },
 
             new PrimeArcabeast
@@ -746,7 +1254,18 @@ namespace Arcabeasts.GameData
                 ArcanePower = 22,
                 PhysicalDefense = 34,
                 ArcaneDefense = 36,
+                Evasiveness = 14,
                 AllowedMoveTypes = new List<string> { "Prime", "Prime" },
+                DamageMultipliers = new Dictionary<string, double>
+                {
+                    ["Fire"] = 1.0,
+                    ["Water"] = 1.0,
+                    ["Grass"] = 1.0,
+                    ["Electric"] = 1.0,
+                    ["Rock"] = 1.0,
+                    ["Air"] = 1.0,
+                    ["Prime"] = 1.0,
+                }
             },
 
             new PrimeArcabeast
@@ -763,7 +1282,18 @@ namespace Arcabeasts.GameData
                 ArcanePower = 20,
                 PhysicalDefense = 36,
                 ArcaneDefense = 37,
+                Evasiveness = 13,
                 AllowedMoveTypes = new List<string> { "Prime", "Prime" },
+                DamageMultipliers = new Dictionary<string, double>
+                {
+                    ["Fire"] = 1.0,
+                    ["Water"] = 1.0,
+                    ["Grass"] = 1.0,
+                    ["Electric"] = 1.0,
+                    ["Rock"] = 1.0,
+                    ["Air"] = 1.0,
+                    ["Prime"] = 1.0,
+                }
             },
 
             new PrimeArcabeast
@@ -780,7 +1310,18 @@ namespace Arcabeasts.GameData
                 ArcanePower = 21,
                 PhysicalDefense = 36,
                 ArcaneDefense = 36,
+                Evasiveness = 15,
                 AllowedMoveTypes = new List<string> { "Prime", "Prime" },
+                DamageMultipliers = new Dictionary<string, double>
+                {
+                    ["Fire"] = 1.0,
+                    ["Water"] = 1.0,
+                    ["Grass"] = 1.0,
+                    ["Electric"] = 1.0,
+                    ["Rock"] = 1.0,
+                    ["Air"] = 1.0,
+                    ["Prime"] = 1.0,
+                }
             },
 
             new PrimeArcabeast
@@ -797,7 +1338,18 @@ namespace Arcabeasts.GameData
                 ArcanePower = 18,
                 PhysicalDefense = 38,
                 ArcaneDefense = 36,
+                Evasiveness = 13,
                 AllowedMoveTypes = new List<string> { "Prime", "Prime" },
+                DamageMultipliers = new Dictionary<string, double>
+                {
+                    ["Fire"] = 1.0,
+                    ["Water"] = 1.0,
+                    ["Grass"] = 1.0,
+                    ["Electric"] = 1.0,
+                    ["Rock"] = 1.0,
+                    ["Air"] = 1.0,
+                    ["Prime"] = 1.0,
+                }
             },
 
         };

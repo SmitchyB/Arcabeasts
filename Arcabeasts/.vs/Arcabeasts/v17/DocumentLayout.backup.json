@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "A:\\DotNetApps\\Arcabeasts\\Arcabeasts\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DEDB725E-032B-431A-B5C7-4A95BED936D5}|Arcabeasts.GameData\\Arcabeasts.GameData.csproj|a:\\dotnetapps\\arcabeasts\\arcabeasts\\arcabeasts.gamedata\\arcabeastabilitydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DEDB725E-032B-431A-B5C7-4A95BED936D5}|Arcabeasts.GameData\\Arcabeasts.GameData.csproj|solutionrelative:arcabeasts.gamedata\\arcabeastabilitydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AF2A11FA-43C5-4E06-8537-DE59F96BBD8A}|ArcabeastsMain\\ArcabeastsMain.csproj|a:\\dotnetapps\\arcabeasts\\arcabeasts\\arcabeastsmain\\pages\\userprofileselection.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF2A11FA-43C5-4E06-8537-DE59F96BBD8A}|ArcabeastsMain\\ArcabeastsMain.csproj|solutionrelative:arcabeastsmain\\pages\\userprofileselection.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DEDB725E-032B-431A-B5C7-4A95BED936D5}|Arcabeasts.GameData\\Arcabeasts.GameData.csproj|a:\\dotnetapps\\arcabeasts\\arcabeasts\\arcabeasts.gamedata\\arcabeastdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DEDB725E-032B-431A-B5C7-4A95BED936D5}|Arcabeasts.GameData\\Arcabeasts.GameData.csproj|solutionrelative:arcabeasts.gamedata\\arcabeastdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF2A11FA-43C5-4E06-8537-DE59F96BBD8A}|ArcabeastsMain\\ArcabeastsMain.csproj|A:\\DotNetApps\\Arcabeasts\\Arcabeasts\\arcabeastsmain\\pages\\userprofileselection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF2A11FA-43C5-4E06-8537-DE59F96BBD8A}|ArcabeastsMain\\ArcabeastsMain.csproj|solutionrelative:arcabeastsmain\\pages\\userprofileselection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF2A11FA-43C5-4E06-8537-DE59F96BBD8A}|ArcabeastsMain\\ArcabeastsMain.csproj|A:\\DotNetApps\\Arcabeasts\\Arcabeasts\\arcabeastsmain\\pages\\maingamemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF2A11FA-43C5-4E06-8537-DE59F96BBD8A}|ArcabeastsMain\\ArcabeastsMain.csproj|solutionrelative:arcabeastsmain\\pages\\maingamemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09B8BB8B-FAB1-4AE9-B527-2F4489CA76A2}|Arcabeasts.DataLib\\Arcabeasts.DataLib.csproj|A:\\DotNetApps\\Arcabeasts\\Arcabeasts\\arcabeasts.datalib\\playerdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09B8BB8B-FAB1-4AE9-B527-2F4489CA76A2}|Arcabeasts.DataLib\\Arcabeasts.DataLib.csproj|solutionrelative:arcabeasts.datalib\\playerdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF2A11FA-43C5-4E06-8537-DE59F96BBD8A}|ArcabeastsMain\\ArcabeastsMain.csproj|A:\\DotNetApps\\Arcabeasts\\Arcabeasts\\arcabeastsmain\\pages\\maingamemenu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AF2A11FA-43C5-4E06-8537-DE59F96BBD8A}|ArcabeastsMain\\ArcabeastsMain.csproj|a:\\dotnetapps\\arcabeasts\\arcabeasts\\arcabeastsmain\\pages\\maingamemenu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF2A11FA-43C5-4E06-8537-DE59F96BBD8A}|ArcabeastsMain\\ArcabeastsMain.csproj|solutionrelative:arcabeastsmain\\pages\\maingamemenu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF2A11FA-43C5-4E06-8537-DE59F96BBD8A}|ArcabeastsMain\\ArcabeastsMain.csproj|a:\\dotnetapps\\arcabeasts\\arcabeasts\\arcabeastsmain\\pages\\maingamemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF2A11FA-43C5-4E06-8537-DE59F96BBD8A}|ArcabeastsMain\\ArcabeastsMain.csproj|solutionrelative:arcabeastsmain\\pages\\maingamemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,81 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ArcabeastDB.cs",
-              "DocumentMoniker": "A:\\DotNetApps\\Arcabeasts\\Arcabeasts\\Arcabeasts.GameData\\ArcabeastDB.cs",
-              "RelativeDocumentMoniker": "Arcabeasts.GameData\\ArcabeastDB.cs",
-              "ToolTip": "A:\\DotNetApps\\Arcabeasts\\Arcabeasts\\Arcabeasts.GameData\\ArcabeastDB.cs",
-              "RelativeToolTip": "Arcabeasts.GameData\\ArcabeastDB.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T04:27:05.731Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ArcabeastAbilityDB.cs",
-              "DocumentMoniker": "A:\\DotNetApps\\Arcabeasts\\Arcabeasts\\Arcabeasts.GameData\\ArcabeastAbilityDB.cs",
-              "RelativeDocumentMoniker": "Arcabeasts.GameData\\ArcabeastAbilityDB.cs",
-              "ToolTip": "A:\\DotNetApps\\Arcabeasts\\Arcabeasts\\Arcabeasts.GameData\\ArcabeastAbilityDB.cs",
-              "RelativeToolTip": "Arcabeasts.GameData\\ArcabeastAbilityDB.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Title": "UserProfileSelection.Designer.cs",
+              "DocumentMoniker": "A:\\DotNetApps\\Arcabeasts\\Arcabeasts\\ArcabeastsMain\\Pages\\UserProfileSelection.Designer.cs",
+              "RelativeDocumentMoniker": "ArcabeastsMain\\Pages\\UserProfileSelection.Designer.cs",
+              "ToolTip": "A:\\DotNetApps\\Arcabeasts\\Arcabeasts\\ArcabeastsMain\\Pages\\UserProfileSelection.Designer.cs",
+              "RelativeToolTip": "ArcabeastsMain\\Pages\\UserProfileSelection.Designer.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAIwKMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T04:20:45.087Z",
+              "WhenOpened": "2025-08-07T04:18:28.746Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PlayerDataService.cs",
-              "DocumentMoniker": "A:\\DotNetApps\\Arcabeasts\\Arcabeasts\\Arcabeasts.DataLib\\PlayerDataService.cs",
-              "RelativeDocumentMoniker": "Arcabeasts.DataLib\\PlayerDataService.cs",
-              "ToolTip": "A:\\DotNetApps\\Arcabeasts\\Arcabeasts\\Arcabeasts.DataLib\\PlayerDataService.cs",
-              "RelativeToolTip": "Arcabeasts.DataLib\\PlayerDataService.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAIwCYAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T04:17:56.802Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserProfileSelection.cs",
-              "DocumentMoniker": "A:\\DotNetApps\\Arcabeasts\\Arcabeasts\\ArcabeastsMain\\Pages\\UserProfileSelection.cs",
-              "RelativeDocumentMoniker": "ArcabeastsMain\\Pages\\UserProfileSelection.cs",
-              "ToolTip": "A:\\DotNetApps\\Arcabeasts\\Arcabeasts\\ArcabeastsMain\\Pages\\UserProfileSelection.cs",
-              "RelativeToolTip": "ArcabeastsMain\\Pages\\UserProfileSelection.cs",
-              "ViewState": "AgIAALQAAAAAAAAAAADgv8QAAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T04:07:54.987Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "MainGameMenu.Designer.cs",
               "DocumentMoniker": "A:\\DotNetApps\\Arcabeasts\\Arcabeasts\\ArcabeastsMain\\Pages\\MainGameMenu.Designer.cs",
               "RelativeDocumentMoniker": "ArcabeastsMain\\Pages\\MainGameMenu.Designer.cs",
               "ToolTip": "A:\\DotNetApps\\Arcabeasts\\Arcabeasts\\ArcabeastsMain\\Pages\\MainGameMenu.Designer.cs",
               "RelativeToolTip": "ArcabeastsMain\\Pages\\MainGameMenu.Designer.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAUwGkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAswGMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T04:06:21.008Z"
+              "WhenOpened": "2025-08-07T03:49:52.144Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "MainGameMenu.cs",
               "DocumentMoniker": "A:\\DotNetApps\\Arcabeasts\\Arcabeasts\\ArcabeastsMain\\Pages\\MainGameMenu.cs",
               "RelativeDocumentMoniker": "ArcabeastsMain\\Pages\\MainGameMenu.cs",
               "ToolTip": "A:\\DotNetApps\\Arcabeasts\\Arcabeasts\\ArcabeastsMain\\Pages\\MainGameMenu.cs",
               "RelativeToolTip": "ArcabeastsMain\\Pages\\MainGameMenu.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAUwGIAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAswHAAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T04:06:08.468Z"
+              "WhenOpened": "2025-08-07T03:49:50.469Z",
+              "EditorCaption": ""
             }
           ]
         }

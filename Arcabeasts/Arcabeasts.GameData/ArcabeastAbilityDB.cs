@@ -7,6 +7,7 @@ namespace Arcabeasts.GameData
     {
         public static List<ArcabeastAbility> All = new List<ArcabeastAbility>
         {
+            //--- Fire Type Abilities ---
             // Offensive Physical
             new OffensiveAbility {
                 Id = new Guid("f38f4874-6940-47b5-921c-34dc934fba25"),
@@ -69,7 +70,6 @@ namespace Arcabeasts.GameData
                 Accuracy = 0.9,
                 Velocity = 0.9
             },
-
             // Defensive Physical
             new DefensiveAbility {
                 Id = new Guid("f5747684-7817-41af-a972-3cb91e1253d2"),
@@ -80,8 +80,10 @@ namespace Arcabeasts.GameData
                 TargetStat = "PhysicalDefense",
                 BuffPercentage = 0.25,
                 Duration = 3,
-                CanStack = false
+                CanStack = false,
+                Velocity = 0.85 // strong 3-turn buff, moderate cost
             },
+
             new DefensiveAbility {
                 Id = new Guid("148e7358-3450-442e-bd3a-fce4a245e795"),
                 Name = "Adrenal Burn",
@@ -91,8 +93,10 @@ namespace Arcabeasts.GameData
                 TargetStat = "Speed",
                 BuffPercentage = 0.2,
                 Duration = 2,
-                CanStack = true
+                CanStack = true,
+                Velocity = 1.1 // aggressive short burst, stacks, fast to trigger
             },
+
             new DefensiveAbility {
                 Id = new Guid("66a195fe-96ac-4577-a8e2-060983f0034c"),
                 Name = "Vital Flame",
@@ -101,8 +105,9 @@ namespace Arcabeasts.GameData
                 ManaCost = 12,
                 TargetStat = "MaxHP",
                 BuffPercentage = 0.15,
-                Duration = 0, // remainder of battle
-                CanStack = false
+                Duration = 0, // permanent
+                CanStack = false,
+                Velocity = 0.7 // permanent = slowest
             },
 
             // Offensive Arcane
@@ -166,7 +171,6 @@ namespace Arcabeasts.GameData
                 Accuracy = 0.95,
                 Velocity = 1
             },
-
             // Defensive Arcane
             new DefensiveAbility {
                 Id = new Guid("c0e38c47-125a-4cd0-bcf3-6df58e8a5811"),
@@ -177,8 +181,10 @@ namespace Arcabeasts.GameData
                 TargetStat = "ManaRegen",
                 BuffPercentage = 0.3,
                 Duration = 3,
-                CanStack = true
+                CanStack = true,
+                Velocity = 0.9 // high buff + duration + stacking = medium-slow
             },
+
             new DefensiveAbility {
                 Id = new Guid("74700739-00e8-40e0-9753-c11677d49aa9"),
                 Name = "Arcane Blaze",
@@ -188,8 +194,10 @@ namespace Arcabeasts.GameData
                 TargetStat = "ArcanePower",
                 BuffPercentage = 0.2,
                 Duration = 2,
-                CanStack = false
+                CanStack = false,
+                Velocity = 1.1 // bursty, short duration, no stack = fast
             },
+
             new DefensiveAbility {
                 Id = new Guid("e7227192-9e07-4621-9690-e880b5227753"),
                 Name = "Fire Ward",
@@ -199,8 +207,10 @@ namespace Arcabeasts.GameData
                 TargetStat = "ArcaneDefense",
                 BuffPercentage = 0.25,
                 Duration = 3,
-                CanStack = false
+                CanStack = false,
+                Velocity = 0.8 // strong buff, long duration = slower
             },
+
             // --- Water Type Abilities ---
 
             // Offensive Physical
@@ -276,8 +286,10 @@ namespace Arcabeasts.GameData
                 TargetStat = "PhysicalDefense",
                 BuffPercentage = 0.25,
                 Duration = 3,
-                CanStack = false
+                CanStack = false,
+                Velocity = 0.85 // solid defensive buff, moderate speed
             },
+
             new DefensiveAbility {
                 Id = new Guid("5c2c3ba1-802e-4660-a136-b5c049fcd2e2"),
                 Name = "Streamline",
@@ -287,8 +299,10 @@ namespace Arcabeasts.GameData
                 TargetStat = "Speed",
                 BuffPercentage = 0.2,
                 Duration = 2,
-                CanStack = true
+                CanStack = true,
+                Velocity = 1.15 // faster burst, stacks, quick reaction
             },
+
             new DefensiveAbility {
                 Id = new Guid("17284e7d-e33d-4bb9-a778-f9a30b0c5afd"),
                 Name = "Vital Wave",
@@ -297,9 +311,11 @@ namespace Arcabeasts.GameData
                 ManaCost = 12,
                 TargetStat = "MaxHP",
                 BuffPercentage = 0.15,
-                Duration = 0,
-                CanStack = false
+                Duration = 0, // permanent
+                CanStack = false,
+                Velocity = 0.7 // slow but long-lasting impact
             },
+
 
             // Offensive Arcane
             new OffensiveAbility {
@@ -373,8 +389,10 @@ namespace Arcabeasts.GameData
                 TargetStat = "ManaRegen",
                 BuffPercentage = 0.3,
                 Duration = 3,
-                CanStack = true
+                CanStack = true,
+                Velocity = 0.9 // strong + stackable = a little slower
             },
+
             new DefensiveAbility {
                 Id = new Guid("d11aa25d-fd13-468d-8ae6-5f0370f1a75c"),
                 Name = "Spiritual Stream",
@@ -384,8 +402,10 @@ namespace Arcabeasts.GameData
                 TargetStat = "ArcanePower",
                 BuffPercentage = 0.2,
                 Duration = 2,
-                CanStack = false
+                CanStack = false,
+                Velocity = 1.1 // fast burst-type ability
             },
+
             new DefensiveAbility {
                 Id = new Guid("c5d92361-0629-418d-89ac-b304410a1a96"),
                 Name = "Mystic Bubble",
@@ -395,7 +415,8 @@ namespace Arcabeasts.GameData
                 TargetStat = "ArcaneDefense",
                 BuffPercentage = 0.25,
                 Duration = 3,
-                CanStack = false
+                CanStack = false,
+                Velocity = 0.8 // durable defense = slower
             },
             // --- Grass Type Abilities ---
 
@@ -464,7 +485,7 @@ namespace Arcabeasts.GameData
 
                 // Defensive Physical
                 new DefensiveAbility {
-                Id = new Guid("4edc446f-1b12-4b40-98a7-c0a86c063a92"),
+                    Id = new Guid("4edc446f-1b12-4b40-98a7-c0a86c063a92"),
                     Name = "Barkskin",
                     Type = "Grass",
                     Class = AbilityClass.Physical,
@@ -472,10 +493,12 @@ namespace Arcabeasts.GameData
                     TargetStat = "PhysicalDefense",
                     BuffPercentage = 0.25,
                     Duration = 3,
-                    CanStack = false
+                    CanStack = false,
+                    Velocity = 0.85
                 },
+
                 new DefensiveAbility {
-                Id = new Guid("54c21301-3c69-4ba9-973f-9f1a083184a9"),
+                    Id = new Guid("54c21301-3c69-4ba9-973f-9f1a083184a9"),
                     Name = "Photosprint",
                     Type = "Grass",
                     Class = AbilityClass.Physical,
@@ -483,10 +506,12 @@ namespace Arcabeasts.GameData
                     TargetStat = "Speed",
                     BuffPercentage = 0.2,
                     Duration = 2,
-                    CanStack = true
+                    CanStack = true,
+                    Velocity = 1.15
                 },
+
                 new DefensiveAbility {
-                Id = new Guid("f44c1551-82c5-4dc4-ac2c-cd26d2e8e7f5"),
+                    Id = new Guid("f44c1551-82c5-4dc4-ac2c-cd26d2e8e7f5"),
                     Name = "Sap Vitality",
                     Type = "Grass",
                     Class = AbilityClass.Physical,
@@ -494,8 +519,10 @@ namespace Arcabeasts.GameData
                     TargetStat = "MaxHP",
                     BuffPercentage = 0.15,
                     Duration = 0,
-                    CanStack = false
+                    CanStack = false,
+                    Velocity = 0.7
                 },
+
 
                 // Offensive Arcane
                 new OffensiveAbility {
@@ -562,7 +589,7 @@ namespace Arcabeasts.GameData
 
                 // Defensive Arcane
                 new DefensiveAbility {
-                Id = new Guid("45aa2957-e68e-4d56-b61c-283f75e339ab"),
+                    Id = new Guid("45aa2957-e68e-4d56-b61c-283f75e339ab"),
                     Name = "Mana Bloom",
                     Type = "Grass",
                     Class = AbilityClass.Arcane,
@@ -570,10 +597,12 @@ namespace Arcabeasts.GameData
                     TargetStat = "ManaRegen",
                     BuffPercentage = 0.3,
                     Duration = 3,
-                    CanStack = true
+                    CanStack = true,
+                    Velocity = 0.9 // good regen, stackable, moderate speed
                 },
+
                 new DefensiveAbility {
-                Id = new Guid("9ad04de5-7edf-4418-89c4-8fb4f3e65ac3"),
+                    Id = new Guid("9ad04de5-7edf-4418-89c4-8fb4f3e65ac3"),
                     Name = "Spirit Growth",
                     Type = "Grass",
                     Class = AbilityClass.Arcane,
@@ -581,10 +610,12 @@ namespace Arcabeasts.GameData
                     TargetStat = "ArcanePower",
                     BuffPercentage = 0.2,
                     Duration = 2,
-                    CanStack = false
+                    CanStack = false,
+                    Velocity = 1.1 // short-term boost, fast cast
                 },
+
                 new DefensiveAbility {
-                Id = new Guid("25009bd5-30df-41cd-8ddd-e07c3b0aafe7"),
+                    Id = new Guid("25009bd5-30df-41cd-8ddd-e07c3b0aafe7"),
                     Name = "Willow Guard",
                     Type = "Grass",
                     Class = AbilityClass.Arcane,
@@ -592,7 +623,8 @@ namespace Arcabeasts.GameData
                     TargetStat = "ArcaneDefense",
                     BuffPercentage = 0.25,
                     Duration = 3,
-                    CanStack = false
+                    CanStack = false,
+                    Velocity = 0.8 // strong defense buff = slower
                 },
                 // --- Electric Type Abilities ---
 
@@ -661,7 +693,7 @@ namespace Arcabeasts.GameData
 
                 // Defensive Physical
                 new DefensiveAbility {
-                Id = new Guid("1382a029-ea42-418e-9524-e15d38113db7"),
+                    Id = new Guid("1382a029-ea42-418e-9524-e15d38113db7"),
                     Name = "Static Guard",
                     Type = "Electric",
                     Class = AbilityClass.Physical,
@@ -669,10 +701,12 @@ namespace Arcabeasts.GameData
                     TargetStat = "PhysicalDefense",
                     BuffPercentage = 0.25,
                     Duration = 3,
-                    CanStack = false
+                    CanStack = false,
+                    Velocity = 0.85
                 },
+
                 new DefensiveAbility {
-                Id = new Guid("f8eb7838-a695-4d26-a62c-9e9aca3f8a31"),
+                    Id = new Guid("f8eb7838-a695-4d26-a62c-9e9aca3f8a31"),
                     Name = "Lightning Reflex",
                     Type = "Electric",
                     Class = AbilityClass.Physical,
@@ -680,10 +714,12 @@ namespace Arcabeasts.GameData
                     TargetStat = "Speed",
                     BuffPercentage = 0.2,
                     Duration = 2,
-                    CanStack = true
+                    CanStack = true,
+                    Velocity = 1.2 // fastest speed buff yet, theme-appropriate
                 },
+
                 new DefensiveAbility {
-                Id = new Guid("1e25a63d-34a9-443b-993e-590f11025903"),
+                    Id = new Guid("1e25a63d-34a9-443b-993e-590f11025903"),
                     Name = "Surge Vitality",
                     Type = "Electric",
                     Class = AbilityClass.Physical,
@@ -691,7 +727,8 @@ namespace Arcabeasts.GameData
                     TargetStat = "MaxHP",
                     BuffPercentage = 0.15,
                     Duration = 0,
-                    CanStack = false
+                    CanStack = false,
+                    Velocity = 0.7
                 },
 
                 // Offensive Arcane
@@ -759,7 +796,7 @@ namespace Arcabeasts.GameData
 
                 // Defensive Arcane
                 new DefensiveAbility {
-                Id = new Guid("bb79d501-e261-4cff-91c1-962ab56c3a4e"),
+                    Id = new Guid("bb79d501-e261-4cff-91c1-962ab56c3a4e"),
                     Name = "Amp Focus",
                     Type = "Electric",
                     Class = AbilityClass.Arcane,
@@ -767,10 +804,12 @@ namespace Arcabeasts.GameData
                     TargetStat = "ArcanePower",
                     BuffPercentage = 0.2,
                     Duration = 2,
-                    CanStack = false
+                    CanStack = false,
+                    Velocity = 1.1 // quick strike
                 },
+
                 new DefensiveAbility {
-                Id = new Guid("a9f76150-4f18-4422-8c1c-eeb81cb57e49"),
+                    Id = new Guid("a9f76150-4f18-4422-8c1c-eeb81cb57e49"),
                     Name = "Field Surge",
                     Type = "Electric",
                     Class = AbilityClass.Arcane,
@@ -778,10 +817,12 @@ namespace Arcabeasts.GameData
                     TargetStat = "ArcaneDefense",
                     BuffPercentage = 0.25,
                     Duration = 3,
-                    CanStack = false
+                    CanStack = false,
+                    Velocity = 0.85
                 },
+
                 new DefensiveAbility {
-                Id = new Guid("be08cd2d-07ea-4053-9f5b-e5cdf914c292"),
+                    Id = new Guid("be08cd2d-07ea-4053-9f5b-e5cdf914c292"),
                     Name = "Battery Boost",
                     Type = "Electric",
                     Class = AbilityClass.Arcane,
@@ -789,8 +830,10 @@ namespace Arcabeasts.GameData
                     TargetStat = "ManaRegen",
                     BuffPercentage = 0.3,
                     Duration = 3,
-                    CanStack = true
+                    CanStack = true,
+                    Velocity = 0.9
                 },
+
                 // --- Rock Type Abilities ---
 
                 // Offensive Physical
@@ -858,7 +901,7 @@ namespace Arcabeasts.GameData
 
                 // Defensive Physical
                 new DefensiveAbility {
-                Id = new Guid("74c61894-4b52-4747-8a33-41444ae5873d"),
+                    Id = new Guid("74c61894-4b52-4747-8a33-41444ae5873d"),
                     Name = "Rock Guard",
                     Type = "Rock",
                     Class = AbilityClass.Physical,
@@ -866,10 +909,12 @@ namespace Arcabeasts.GameData
                     TargetStat = "PhysicalDefense",
                     BuffPercentage = 0.25,
                     Duration = 3,
-                    CanStack = false
+                    CanStack = false,
+                    Velocity = 0.8 // tough, but slow theme
                 },
+
                 new DefensiveAbility {
-                Id = new Guid("5fad512c-adb2-4b3a-be60-96c12ec6f295"),
+                    Id = new Guid("5fad512c-adb2-4b3a-be60-96c12ec6f295"),
                     Name = "Heavy Frame",
                     Type = "Rock",
                     Class = AbilityClass.Physical,
@@ -877,10 +922,12 @@ namespace Arcabeasts.GameData
                     TargetStat = "MaxHP",
                     BuffPercentage = 0.15,
                     Duration = 0,
-                    CanStack = false
+                    CanStack = false,
+                    Velocity = 0.65 // slowest; it’s a full battle effect
                 },
+
                 new DefensiveAbility {
-                Id = new Guid("d6000278-4c40-4cfe-84c3-9e183eaaa261"),
+                    Id = new Guid("d6000278-4c40-4cfe-84c3-9e183eaaa261"),
                     Name = "Steady Legs",
                     Type = "Rock",
                     Class = AbilityClass.Physical,
@@ -888,8 +935,10 @@ namespace Arcabeasts.GameData
                     TargetStat = "Speed",
                     BuffPercentage = 0.2,
                     Duration = 2,
-                    CanStack = true
+                    CanStack = true,
+                    Velocity = 1.0 // slower than other Speed buffs for Rock flavor
                 },
+
 
                 // Offensive Arcane
                 new OffensiveAbility {
@@ -956,7 +1005,7 @@ namespace Arcabeasts.GameData
 
                 // Defensive Arcane
                 new DefensiveAbility {
-                Id = new Guid("f528eea5-40da-4ff0-8937-7bd72beb5cbe"),
+                    Id = new Guid("f528eea5-40da-4ff0-8937-7bd72beb5cbe"),
                     Name = "Stone Focus",
                     Type = "Rock",
                     Class = AbilityClass.Arcane,
@@ -964,10 +1013,12 @@ namespace Arcabeasts.GameData
                     TargetStat = "ArcanePower",
                     BuffPercentage = 0.2,
                     Duration = 2,
-                    CanStack = false
+                    CanStack = false,
+                    Velocity = 1.0 // arcane burst, but slightly slower due to Rock typing
                 },
+
                 new DefensiveAbility {
-                Id = new Guid("7339bd51-a473-4ec3-80a5-13fb53f626d7"),
+                    Id = new Guid("7339bd51-a473-4ec3-80a5-13fb53f626d7"),
                     Name = "Geomantic Shell",
                     Type = "Rock",
                     Class = AbilityClass.Arcane,
@@ -975,10 +1026,12 @@ namespace Arcabeasts.GameData
                     TargetStat = "ArcaneDefense",
                     BuffPercentage = 0.25,
                     Duration = 3,
-                    CanStack = false
+                    CanStack = false,
+                    Velocity = 0.75 // sturdy shell = slower reaction
                 },
+
                 new DefensiveAbility {
-                Id = new Guid("7f6a2afc-a638-4833-b7b8-b268f564977b"),
+                    Id = new Guid("7f6a2afc-a638-4833-b7b8-b268f564977b"),
                     Name = "Earthwell Surge",
                     Type = "Rock",
                     Class = AbilityClass.Arcane,
@@ -986,8 +1039,10 @@ namespace Arcabeasts.GameData
                     TargetStat = "ManaRegen",
                     BuffPercentage = 0.3,
                     Duration = 3,
-                    CanStack = true
+                    CanStack = true,
+                    Velocity = 0.85 // strong effect but slower tempo
                 },
+
                 // --- Air Type Abilities ---
 
                 // Offensive Physical
@@ -1055,7 +1110,7 @@ namespace Arcabeasts.GameData
 
                 // Defensive Physical
                 new DefensiveAbility {
-                Id = new Guid("191b607b-46e4-41d2-8bac-38428abec481"),
+                    Id = new Guid("191b607b-46e4-41d2-8bac-38428abec481"),
                     Name = "Windstep",
                     Type = "Air",
                     Class = AbilityClass.Physical,
@@ -1063,10 +1118,12 @@ namespace Arcabeasts.GameData
                     TargetStat = "Speed",
                     BuffPercentage = 0.3,
                     Duration = 2,
-                    CanStack = true
+                    CanStack = true,
+                    Velocity = 1.25 // highest so far, ultra-fast theme
                 },
+
                 new DefensiveAbility {
-                Id = new Guid("e618bc56-7555-4968-b320-effb756dfb09"),
+                    Id = new Guid("e618bc56-7555-4968-b320-effb756dfb09"),
                     Name = "Feather Guard",
                     Type = "Air",
                     Class = AbilityClass.Physical,
@@ -1074,10 +1131,12 @@ namespace Arcabeasts.GameData
                     TargetStat = "PhysicalDefense",
                     BuffPercentage = 0.2,
                     Duration = 3,
-                    CanStack = false
+                    CanStack = false,
+                    Velocity = 0.95 // quick defense, light theme
                 },
+
                 new DefensiveAbility {
-                Id = new Guid("f363fa6a-4fd6-4e69-8d59-5540e602ab06"),
+                    Id = new Guid("f363fa6a-4fd6-4e69-8d59-5540e602ab06"),
                     Name = "Updraft Vitality",
                     Type = "Air",
                     Class = AbilityClass.Physical,
@@ -1085,12 +1144,14 @@ namespace Arcabeasts.GameData
                     TargetStat = "MaxHP",
                     BuffPercentage = 0.15,
                     Duration = 0,
-                    CanStack = false
+                    CanStack = false,
+                    Velocity = 0.75 // permanent effect = slower
                 },
+
 
                 // Offensive Arcane
                 new OffensiveAbility {
-                Id = new Guid("b944238a-1f2f-4644-97d5-ca9792671e7c"),
+                    Id = new Guid("b944238a-1f2f-4644-97d5-ca9792671e7c"),
                     Name = "Air Bolt",
                     Type = "Air",
                     Class = AbilityClass.Arcane,
@@ -1100,7 +1161,7 @@ namespace Arcabeasts.GameData
                     Velocity = 1.3
                 },
                 new OffensiveAbility {
-                Id = new Guid("945cc8e0-1654-41d5-a219-02155614422d"),
+                    Id = new Guid("945cc8e0-1654-41d5-a219-02155614422d"),
                     Name = "Storm Pulse",
                     Type = "Air",
                     Class = AbilityClass.Arcane,
@@ -1110,7 +1171,7 @@ namespace Arcabeasts.GameData
                     Velocity = 1.5
                 },
                 new OffensiveAbility {
-                Id = new Guid("30a51242-4d0b-402b-a0ec-f48d0f681374"),
+                    Id = new Guid("30a51242-4d0b-402b-a0ec-f48d0f681374"),
                     Name = "Vortex Ray",
                     Type = "Air",
                     Class = AbilityClass.Arcane,
@@ -1120,7 +1181,7 @@ namespace Arcabeasts.GameData
                     Velocity = 1.0
                 },
                 new OffensiveAbility {
-                Id = new Guid("94e81000-2760-48b8-a23f-aaf6406ebfd6"),
+                    Id = new Guid("94e81000-2760-48b8-a23f-aaf6406ebfd6"),
                     Name = "Zephyr Build",
                     Type = "Air",
                     Class = AbilityClass.Arcane,
@@ -1131,7 +1192,7 @@ namespace Arcabeasts.GameData
                     IsMultiTurn = true
                 },
                 new OffensiveAbility {
-                Id = new Guid("af8dcc73-a71e-48a8-a0eb-80b815088c5d"),
+                    Id = new Guid("af8dcc73-a71e-48a8-a0eb-80b815088c5d"),
                     Name = "Twister Beam",
                     Type = "Air",
                     Class = AbilityClass.Arcane,
@@ -1141,7 +1202,7 @@ namespace Arcabeasts.GameData
                     Velocity = 1.2
                 },
                 new OffensiveAbility {
-                Id = new Guid("cc71b98d-b359-4c80-adad-30bfe64437f1"),
+                    Id = new Guid("cc71b98d-b359-4c80-adad-30bfe64437f1"),
                     Name = "Shockwind",
                     Type = "Air",
                     Class = AbilityClass.Arcane,
@@ -1153,7 +1214,7 @@ namespace Arcabeasts.GameData
 
                 // Defensive Arcane
                 new DefensiveAbility {
-                Id = new Guid("a6e2edc8-358a-4a93-bc05-d610c2e60bfc"),
+                    Id = new Guid("a6e2edc8-358a-4a93-bc05-d610c2e60bfc"),
                     Name = "Sky Focus",
                     Type = "Air",
                     Class = AbilityClass.Arcane,
@@ -1161,10 +1222,12 @@ namespace Arcabeasts.GameData
                     TargetStat = "ArcanePower",
                     BuffPercentage = 0.2,
                     Duration = 2,
-                    CanStack = false
+                    CanStack = false,
+                    Velocity = 1.15 // quick precision boost, fits Air theme
                 },
+
                 new DefensiveAbility {
-                Id = new Guid("b12468c6-7446-4f73-bcb5-bebff5106c8c"),
+                    Id = new Guid("b12468c6-7446-4f73-bcb5-bebff5106c8c"),
                     Name = "Aether Shroud",
                     Type = "Air",
                     Class = AbilityClass.Arcane,
@@ -1172,10 +1235,12 @@ namespace Arcabeasts.GameData
                     TargetStat = "ArcaneDefense",
                     BuffPercentage = 0.25,
                     Duration = 3,
-                    CanStack = false
+                    CanStack = false,
+                    Velocity = 0.9 // protective but lighter than rock/water
                 },
+
                 new DefensiveAbility {
-                Id = new Guid("72e93ef3-7538-41d3-bd9f-6a3b4aff2e93"),
+                    Id = new Guid("72e93ef3-7538-41d3-bd9f-6a3b4aff2e93"),
                     Name = "Wind Meditation",
                     Type = "Air",
                     Class = AbilityClass.Arcane,
@@ -1183,8 +1248,10 @@ namespace Arcabeasts.GameData
                     TargetStat = "ManaRegen",
                     BuffPercentage = 0.3,
                     Duration = 3,
-                    CanStack = true
+                    CanStack = true,
+                    Velocity = 1.0 // fluid and steady, decent pace
                 },
+
                 // --- Prime Type Abilities ---
 
                 // Offensive Physical
@@ -1252,7 +1319,7 @@ namespace Arcabeasts.GameData
 
                 // Defensive Physical
                 new DefensiveAbility {
-                Id = new Guid("705dc7f7-ff82-43bd-8f02-19bcf26b89b0"),
+                    Id = new Guid("705dc7f7-ff82-43bd-8f02-19bcf26b89b0"),
                     Name = "Primal Shield",
                     Type = "Prime",
                     Class = AbilityClass.Physical,
@@ -1260,10 +1327,12 @@ namespace Arcabeasts.GameData
                     TargetStat = "PhysicalDefense",
                     BuffPercentage = 0.25,
                     Duration = 3,
-                    CanStack = false
+                    CanStack = false,
+                    Velocity = 0.85
                 },
+
                 new DefensiveAbility {
-                Id = new Guid("134d5e31-2406-48d2-82a5-1e717c94744d"),
+                    Id = new Guid("134d5e31-2406-48d2-82a5-1e717c94744d"),
                     Name = "Equilibrium Boost",
                     Type = "Prime",
                     Class = AbilityClass.Physical,
@@ -1271,10 +1340,12 @@ namespace Arcabeasts.GameData
                     TargetStat = "PhysicalPower",
                     BuffPercentage = 0.2,
                     Duration = 2,
-                    CanStack = false
+                    CanStack = false,
+                    Velocity = 1.05
                 },
+
                 new DefensiveAbility {
-                Id = new Guid("394772ba-cf66-4b73-a044-c9df5b7ab851"),
+                    Id = new Guid("394772ba-cf66-4b73-a044-c9df5b7ab851"),
                     Name = "Tempo Flow",
                     Type = "Prime",
                     Class = AbilityClass.Physical,
@@ -1282,7 +1353,8 @@ namespace Arcabeasts.GameData
                     TargetStat = "Speed",
                     BuffPercentage = 0.15,
                     Duration = 3,
-                    CanStack = true
+                    CanStack = true,
+                    Velocity = 1.0
                 },
 
                 // Offensive Arcane
@@ -1350,7 +1422,7 @@ namespace Arcabeasts.GameData
 
                 // Defensive Arcane
                 new DefensiveAbility {
-                Id = new Guid("2f738409-e450-400f-869d-a4f3d1549859"),
+                    Id = new Guid("2f738409-e450-400f-869d-a4f3d1549859"),
                     Name = "Mana Harmony",
                     Type = "Prime",
                     Class = AbilityClass.Arcane,
@@ -1358,10 +1430,12 @@ namespace Arcabeasts.GameData
                     TargetStat = "ManaRegen",
                     BuffPercentage = 0.3,
                     Duration = 3,
-                    CanStack = true
+                    CanStack = true,
+                    Velocity = 0.95 // efficient and balanced for Prime
                 },
+
                 new DefensiveAbility {
-                Id = new Guid("3ca4135d-23bd-4c2e-a914-6d0ea296cd9d"),
+                    Id = new Guid("3ca4135d-23bd-4c2e-a914-6d0ea296cd9d"),
                     Name = "Arcane Fortify",
                     Type = "Prime",
                     Class = AbilityClass.Arcane,
@@ -1369,10 +1443,12 @@ namespace Arcabeasts.GameData
                     TargetStat = "ArcaneDefense",
                     BuffPercentage = 0.25,
                     Duration = 2,
-                    CanStack = false
+                    CanStack = false,
+                    Velocity = 0.85 // strong but slightly slower
                 },
+
                 new DefensiveAbility {
-                Id = new Guid("1c4af361-675b-496b-bf59-13c19bf50e48"),
+                    Id = new Guid("1c4af361-675b-496b-bf59-13c19bf50e48"),
                     Name = "Mystic Clarity",
                     Type = "Prime",
                     Class = AbilityClass.Arcane,
@@ -1380,7 +1456,8 @@ namespace Arcabeasts.GameData
                     TargetStat = "ArcanePower",
                     BuffPercentage = 0.2,
                     Duration = 2,
-                    CanStack = false
+                    CanStack = false,
+                    Velocity = 1.05 // burst offense-support style
                 }
         };
     }

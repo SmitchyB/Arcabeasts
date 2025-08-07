@@ -41,7 +41,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActiveEffect.cs" />
+    <Compile Include="ArcabeastFactory.cs" />
+    <Compile Include="ArcabeastInstance.cs" />
+    <Compile Include="BattleContext.cs" />
+    <Compile Include="BattleFlow.cs" />
+    <Compile Include="ChooseOpponent.cs" />
+    <Compile Include="DetermineOrder.cs" />
+    <Compile Include="EffectManager.cs" />
+    <Compile Include="LevelStatCalculator.cs" />
+    <Compile Include="OpponentAbilitySelect.cs" />
+    <Compile Include="PostBattleCalc.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UseAbility.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Arcabeasts.DataLib\Arcabeasts.DataLib.csproj">
+      <Project>{09b8bb8b-fab1-4ae9-b527-2f4489ca76a2}</Project>
+      <Name>Arcabeasts.DataLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Arcabeasts.GameData\Arcabeasts.GameData.csproj">
+      <Project>{dedb725e-032b-431a-b5c7-4a95bed936d5}</Project>
+      <Name>Arcabeasts.GameData</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
