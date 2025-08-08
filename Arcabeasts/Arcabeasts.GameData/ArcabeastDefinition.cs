@@ -16,14 +16,11 @@ namespace Arcabeasts.GameData
             public Guid Id { get; set; } = Guid.NewGuid();
             public string Name { get; set; }
             public string Type { get; set; }
-
             public string AssetPath { get; set; }
-
             public int MaxHP { get; set; }
             public int MaxMana { get; set; }
             public int ManaRegen { get; set; }
             public int Speed { get; set; }
-
             public int PhysicalPower { get; set; }
             public int ArcanePower { get; set; }
             public int PhysicalDefense { get; set; }
@@ -32,7 +29,6 @@ namespace Arcabeasts.GameData
             public List<string> AllowedMoveTypes { get; set; } = new List<string>();
             public Dictionary<string, double> DamageMultipliers { get; set; } = new Dictionary<string, double>();
         }
-
         public class FireArcabeast : ArcabeastDefinition
         {
             public double BurnDamage { get; set; }
@@ -41,7 +37,6 @@ namespace Arcabeasts.GameData
             public bool isStackable { get; set; }
             public Guid PassiveAbilityId { get; set; } // Link to the passive ability
         }
-
         public class GrassArcabeast : ArcabeastDefinition
         {
             public double PoisonDamage { get; set; }
@@ -50,7 +45,6 @@ namespace Arcabeasts.GameData
             public bool isStackable { get; set; }
             public Guid PassiveAbilityId { get; set; } // Link to the passive ability
         }
-
         public class ElectricArcabeast : ArcabeastDefinition
         {
             public double ShockDamagePerTurn { get; set; }
@@ -59,7 +53,6 @@ namespace Arcabeasts.GameData
             public bool isStackable { get; set; }
             public Guid PassiveAbilityId { get; set; } // Link to the passive ability
         }
-
         public class WaterArcabeast : ArcabeastDefinition
         {
             public double DampenManaDrain { get; set; }
@@ -67,15 +60,14 @@ namespace Arcabeasts.GameData
             public bool isStackable { get; set; }
             public Guid PassiveAbilityId { get; set; } // Link to the passive ability
         }
-
         public class RockArcabeast : ArcabeastDefinition
         {
             public double GuardBreakAmount { get; set; }
             public double GuardBreakChance { get; set; }
             public bool isStackable { get; set; }
+            public int GuardBreakDuration { get; set; }
             public Guid PassiveAbilityId { get; set; } // Link to the passive ability
         }
-
         public class AirArcabeast : ArcabeastDefinition
         {
             public double EvasionBoostChance { get; set; }
@@ -84,7 +76,6 @@ namespace Arcabeasts.GameData
             public bool isStackable { get; set; }
             public Guid PassiveAbilityId { get; set; } // Link to the passive ability
         }
-
         public class PrimeArcabeast : ArcabeastDefinition
         {
             // Prime has no passive

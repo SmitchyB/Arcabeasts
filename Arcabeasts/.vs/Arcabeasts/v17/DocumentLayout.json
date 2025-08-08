@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "A:\\DotNetApps\\Arcabeasts\\Arcabeasts\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AF2A11FA-43C5-4E06-8537-DE59F96BBD8A}|ArcabeastsMain\\ArcabeastsMain.csproj|a:\\dotnetapps\\arcabeasts\\arcabeasts\\arcabeastsmain\\pages\\userprofileselection.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF2A11FA-43C5-4E06-8537-DE59F96BBD8A}|ArcabeastsMain\\ArcabeastsMain.csproj|solutionrelative:arcabeastsmain\\pages\\userprofileselection.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{965A35E6-6229-4EAE-9B00-E5927796BE3A}|Arcabeasts.Combat\\Arcabeasts.Combat.csproj|a:\\dotnetapps\\arcabeasts\\arcabeasts\\arcabeasts.combat\\postbattlecalc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{965A35E6-6229-4EAE-9B00-E5927796BE3A}|Arcabeasts.Combat\\Arcabeasts.Combat.csproj|solutionrelative:arcabeasts.combat\\postbattlecalc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF2A11FA-43C5-4E06-8537-DE59F96BBD8A}|ArcabeastsMain\\ArcabeastsMain.csproj|a:\\dotnetapps\\arcabeasts\\arcabeasts\\arcabeastsmain\\pages\\maingamemenu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF2A11FA-43C5-4E06-8537-DE59F96BBD8A}|ArcabeastsMain\\ArcabeastsMain.csproj|solutionrelative:arcabeastsmain\\pages\\maingamemenu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{965A35E6-6229-4EAE-9B00-E5927796BE3A}|Arcabeasts.Combat\\Arcabeasts.Combat.csproj|a:\\dotnetapps\\arcabeasts\\arcabeasts\\arcabeasts.combat\\levelstatcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{965A35E6-6229-4EAE-9B00-E5927796BE3A}|Arcabeasts.Combat\\Arcabeasts.Combat.csproj|solutionrelative:arcabeasts.combat\\levelstatcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF2A11FA-43C5-4E06-8537-DE59F96BBD8A}|ArcabeastsMain\\ArcabeastsMain.csproj|a:\\dotnetapps\\arcabeasts\\arcabeasts\\arcabeastsmain\\pages\\maingamemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF2A11FA-43C5-4E06-8537-DE59F96BBD8A}|ArcabeastsMain\\ArcabeastsMain.csproj|solutionrelative:arcabeastsmain\\pages\\maingamemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{965A35E6-6229-4EAE-9B00-E5927796BE3A}|Arcabeasts.Combat\\Arcabeasts.Combat.csproj|a:\\dotnetapps\\arcabeasts\\arcabeasts\\arcabeasts.combat\\effectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{965A35E6-6229-4EAE-9B00-E5927796BE3A}|Arcabeasts.Combat\\Arcabeasts.Combat.csproj|solutionrelative:arcabeasts.combat\\effectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{965A35E6-6229-4EAE-9B00-E5927796BE3A}|Arcabeasts.Combat\\Arcabeasts.Combat.csproj|a:\\dotnetapps\\arcabeasts\\arcabeasts\\arcabeasts.combat\\battleflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{965A35E6-6229-4EAE-9B00-E5927796BE3A}|Arcabeasts.Combat\\Arcabeasts.Combat.csproj|solutionrelative:arcabeasts.combat\\battleflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{965A35E6-6229-4EAE-9B00-E5927796BE3A}|Arcabeasts.Combat\\Arcabeasts.Combat.csproj|a:\\dotnetapps\\arcabeasts\\arcabeasts\\arcabeasts.combat\\useability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{965A35E6-6229-4EAE-9B00-E5927796BE3A}|Arcabeasts.Combat\\Arcabeasts.Combat.csproj|solutionrelative:arcabeasts.combat\\useability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{965A35E6-6229-4EAE-9B00-E5927796BE3A}|Arcabeasts.Combat\\Arcabeasts.Combat.csproj|a:\\dotnetapps\\arcabeasts\\arcabeasts\\arcabeasts.combat\\arcabeastinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{965A35E6-6229-4EAE-9B00-E5927796BE3A}|Arcabeasts.Combat\\Arcabeasts.Combat.csproj|solutionrelative:arcabeasts.combat\\arcabeastinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{965A35E6-6229-4EAE-9B00-E5927796BE3A}|Arcabeasts.Combat\\Arcabeasts.Combat.csproj|a:\\dotnetapps\\arcabeasts\\arcabeasts\\arcabeasts.combat\\activeeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{965A35E6-6229-4EAE-9B00-E5927796BE3A}|Arcabeasts.Combat\\Arcabeasts.Combat.csproj|solutionrelative:arcabeasts.combat\\activeeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +43,92 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserProfileSelection.Designer.cs",
-              "DocumentMoniker": "A:\\DotNetApps\\Arcabeasts\\Arcabeasts\\ArcabeastsMain\\Pages\\UserProfileSelection.Designer.cs",
-              "RelativeDocumentMoniker": "ArcabeastsMain\\Pages\\UserProfileSelection.Designer.cs",
-              "ToolTip": "A:\\DotNetApps\\Arcabeasts\\Arcabeasts\\ArcabeastsMain\\Pages\\UserProfileSelection.Designer.cs",
-              "RelativeToolTip": "ArcabeastsMain\\Pages\\UserProfileSelection.Designer.cs",
-              "ViewState": "AgIAAHwAAAAAAAAAAAAIwIYAAABUAAAAAAAAAA==",
+              "Title": "PostBattleCalc.cs",
+              "DocumentMoniker": "A:\\DotNetApps\\Arcabeasts\\Arcabeasts\\Arcabeasts.Combat\\PostBattleCalc.cs",
+              "RelativeDocumentMoniker": "Arcabeasts.Combat\\PostBattleCalc.cs",
+              "ToolTip": "A:\\DotNetApps\\Arcabeasts\\Arcabeasts\\Arcabeasts.Combat\\PostBattleCalc.cs",
+              "RelativeToolTip": "Arcabeasts.Combat\\PostBattleCalc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T04:18:28.746Z",
+              "WhenOpened": "2025-08-08T20:39:16.12Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainGameMenu.Designer.cs",
-              "DocumentMoniker": "A:\\DotNetApps\\Arcabeasts\\Arcabeasts\\ArcabeastsMain\\Pages\\MainGameMenu.Designer.cs",
-              "RelativeDocumentMoniker": "ArcabeastsMain\\Pages\\MainGameMenu.Designer.cs",
-              "ToolTip": "A:\\DotNetApps\\Arcabeasts\\Arcabeasts\\ArcabeastsMain\\Pages\\MainGameMenu.Designer.cs",
-              "RelativeToolTip": "ArcabeastsMain\\Pages\\MainGameMenu.Designer.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAswGMAAAAAAAAAAAAAAA==",
+              "Title": "LevelStatCalculator.cs",
+              "DocumentMoniker": "A:\\DotNetApps\\Arcabeasts\\Arcabeasts\\Arcabeasts.Combat\\LevelStatCalculator.cs",
+              "RelativeDocumentMoniker": "Arcabeasts.Combat\\LevelStatCalculator.cs",
+              "ToolTip": "A:\\DotNetApps\\Arcabeasts\\Arcabeasts\\Arcabeasts.Combat\\LevelStatCalculator.cs",
+              "RelativeToolTip": "Arcabeasts.Combat\\LevelStatCalculator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T03:49:52.144Z",
+              "WhenOpened": "2025-08-08T20:39:14.125Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MainGameMenu.cs",
-              "DocumentMoniker": "A:\\DotNetApps\\Arcabeasts\\Arcabeasts\\ArcabeastsMain\\Pages\\MainGameMenu.cs",
-              "RelativeDocumentMoniker": "ArcabeastsMain\\Pages\\MainGameMenu.cs",
-              "ToolTip": "A:\\DotNetApps\\Arcabeasts\\Arcabeasts\\ArcabeastsMain\\Pages\\MainGameMenu.cs",
-              "RelativeToolTip": "ArcabeastsMain\\Pages\\MainGameMenu.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAswHAAAAA0AAAAAAAAAA==",
+              "Title": "EffectManager.cs",
+              "DocumentMoniker": "A:\\DotNetApps\\Arcabeasts\\Arcabeasts\\Arcabeasts.Combat\\EffectManager.cs",
+              "RelativeDocumentMoniker": "Arcabeasts.Combat\\EffectManager.cs",
+              "ToolTip": "A:\\DotNetApps\\Arcabeasts\\Arcabeasts\\Arcabeasts.Combat\\EffectManager.cs",
+              "RelativeToolTip": "Arcabeasts.Combat\\EffectManager.cs",
+              "ViewState": "AgIAALwAAAAAAAAAAAAswPwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T03:49:50.469Z",
+              "WhenOpened": "2025-08-08T20:37:03.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BattleFlow.cs",
+              "DocumentMoniker": "A:\\DotNetApps\\Arcabeasts\\Arcabeasts\\Arcabeasts.Combat\\BattleFlow.cs",
+              "RelativeDocumentMoniker": "Arcabeasts.Combat\\BattleFlow.cs",
+              "ToolTip": "A:\\DotNetApps\\Arcabeasts\\Arcabeasts\\Arcabeasts.Combat\\BattleFlow.cs",
+              "RelativeToolTip": "Arcabeasts.Combat\\BattleFlow.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T20:36:57.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ArcabeastInstance.cs",
+              "DocumentMoniker": "A:\\DotNetApps\\Arcabeasts\\Arcabeasts\\Arcabeasts.Combat\\ArcabeastInstance.cs",
+              "RelativeDocumentMoniker": "Arcabeasts.Combat\\ArcabeastInstance.cs",
+              "ToolTip": "A:\\DotNetApps\\Arcabeasts\\Arcabeasts\\Arcabeasts.Combat\\ArcabeastInstance.cs",
+              "RelativeToolTip": "Arcabeasts.Combat\\ArcabeastInstance.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwCQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T20:34:46.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ActiveEffect.cs",
+              "DocumentMoniker": "A:\\DotNetApps\\Arcabeasts\\Arcabeasts\\Arcabeasts.Combat\\ActiveEffect.cs",
+              "RelativeDocumentMoniker": "Arcabeasts.Combat\\ActiveEffect.cs",
+              "ToolTip": "A:\\DotNetApps\\Arcabeasts\\Arcabeasts\\Arcabeasts.Combat\\ActiveEffect.cs",
+              "RelativeToolTip": "Arcabeasts.Combat\\ActiveEffect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T20:34:45.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UseAbility.cs",
+              "DocumentMoniker": "A:\\DotNetApps\\Arcabeasts\\Arcabeasts\\Arcabeasts.Combat\\UseAbility.cs",
+              "RelativeDocumentMoniker": "Arcabeasts.Combat\\UseAbility.cs",
+              "ToolTip": "A:\\DotNetApps\\Arcabeasts\\Arcabeasts\\Arcabeasts.Combat\\UseAbility.cs",
+              "RelativeToolTip": "Arcabeasts.Combat\\UseAbility.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T20:32:52.674Z",
               "EditorCaption": ""
             }
           ]

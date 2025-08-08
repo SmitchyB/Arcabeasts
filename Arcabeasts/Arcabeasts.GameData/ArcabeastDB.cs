@@ -812,6 +812,7 @@ namespace Arcabeasts.GameData
                 AllowedMoveTypes = new List<string> { "Rock", "Prime" },
                 GuardBreakAmount = 0.20,
                 GuardBreakChance = 20,
+                GuardBreakDuration = 2,
                 isStackable = false,
                 PassiveAbilityId = new Guid("1a5e2eae-44bc-47c7-b6f9-0dff83e41021"),
                 DamageMultipliers = new Dictionary<string, double>
@@ -844,6 +845,7 @@ namespace Arcabeasts.GameData
                 AllowedMoveTypes = new List<string> { "Rock", "Prime" },
                 GuardBreakAmount = 0.20,
                 GuardBreakChance = 20,
+                GuardBreakDuration = 2,
                 isStackable = false,
                 PassiveAbilityId = new Guid("1a5e2eae-44bc-47c7-b6f9-0dff83e41021"),
                 DamageMultipliers = new Dictionary<string, double>
@@ -876,6 +878,7 @@ namespace Arcabeasts.GameData
                 AllowedMoveTypes = new List<string> { "Rock", "Prime" },
                 GuardBreakAmount = 0.20,
                 GuardBreakChance = 20,
+                GuardBreakDuration = 2,
                 isStackable = false,
                 PassiveAbilityId = new Guid("1a5e2eae-44bc-47c7-b6f9-0dff83e41021"),
                 DamageMultipliers = new Dictionary<string, double>
@@ -908,6 +911,7 @@ namespace Arcabeasts.GameData
                 AllowedMoveTypes = new List<string> { "Rock", "Prime" },
                 GuardBreakAmount = 0.20,
                 GuardBreakChance = 20,
+                GuardBreakDuration = 2,
                 isStackable = false,
                 PassiveAbilityId = new Guid("1a5e2eae-44bc-47c7-b6f9-0dff83e41021"),
                 DamageMultipliers = new Dictionary<string, double>
@@ -940,6 +944,7 @@ namespace Arcabeasts.GameData
                 AllowedMoveTypes = new List<string> { "Rock", "Prime" },
                 GuardBreakAmount = 0.20,
                 GuardBreakChance = 20,
+                GuardBreakDuration = 2,
                 isStackable = false,
                 PassiveAbilityId = new Guid("1a5e2eae-44bc-47c7-b6f9-0dff83e41021"),
                 DamageMultipliers = new Dictionary<string, double>
@@ -972,6 +977,7 @@ namespace Arcabeasts.GameData
                 AllowedMoveTypes = new List<string> { "Rock", "Prime" },
                 GuardBreakAmount = 0.20,
                 GuardBreakChance = 20,
+                GuardBreakDuration = 2,
                 isStackable = false,
                 PassiveAbilityId = new Guid("1a5e2eae-44bc-47c7-b6f9-0dff83e41021"),
                 DamageMultipliers = new Dictionary<string, double>

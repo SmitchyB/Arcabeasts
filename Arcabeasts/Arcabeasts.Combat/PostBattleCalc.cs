@@ -5,47 +5,29 @@ namespace Arcabeasts.Combat
 {
     public static class PostBattleCalc
     {
-        /// <summary>
-        /// Calculate EXP reward based on opponent level (scales upward).
-        /// </summary>
+        // Calculates the experience reward based on the opponent's level
         public static int CalculateExpReward(int opponentLevel)
         {
-            return (int)(50 * Math.Pow(1.1, opponentLevel)); // Scales quickly, tweak as needed
+            return (int)(50 * Math.Pow(1.1, opponentLevel)); // Determines exp based on opponent's level with exponential scaling
         }
-
-        /// <summary>
-        /// Returns the EXP required to reach the next level from the given level.
-        /// </summary>
-        public static int RequiredExpForLevel(int level)
+        // Calculates the experience needed to reach the next level
+        public static int RequiredExpForLevel(int level) 
         {
-            return (int)(100 * Math.Pow(level, 1.5)); // nonlinear scaling
+            return (int)(100 * Math.Pow(level, 1.5)); // Determines the required exp for the next level with exponential growth
         }
-
-        /// <summary>
-        /// Adds EXP and handles level up logic.
-        /// </summary>
+        // Grants experience to the Arcabeast and levels it up if enough experience is gained
         public static void GrantExp(PlayerArcabeast arcabeast, int exp)
         {
-            Console.WriteLine($"[DEBUG] Before Grant: Level={arcabeast.Level}, EXP={arcabeast.Experience}, Gained={exp}");
-
-            arcabeast.Experience += exp;
-
-            while (true)
+            arcabeast.Experience += exp; // Add the granted experience to the Arcabeast's current experience
+            while (true) // Loop to check if the Arcabeast can level up
             {
-                int xpNeeded = RequiredExpForLevel(arcabeast.Level);
-                Console.WriteLine($"[DEBUG] Check: Level={arcabeast.Level}, EXP={arcabeast.Experience}, Needed={xpNeeded}");
-
-                if (arcabeast.Experience < xpNeeded)
+                int xpNeeded = RequiredExpForLevel(arcabeast.Level); // Calculate the experience needed for the next level
+                if (arcabeast.Experience < xpNeeded) // If not enough experience, break the loop
                     break;
 
-                arcabeast.Experience -= xpNeeded;
-                arcabeast.Level++;
-
-                Console.WriteLine($"[DEBUG] Level up! New Level={arcabeast.Level}, Remaining EXP={arcabeast.Experience}");
+                arcabeast.Experience -= xpNeeded; // Subtract the required experience for leveling up
+                arcabeast.Level++; // Increment the Arcabeast's level
             }
-
-            Console.WriteLine($"[DEBUG] After Grant: Final Level={arcabeast.Level}, EXP={arcabeast.Experience}");
         }
-
     }
 }

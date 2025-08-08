@@ -14,7 +14,7 @@ namespace Arcabeasts.Combat
         public int TurnNumber { get; set; } = 1;
         public Action<string> Log { get; set; }
         public static BattleContext Current { get; set; }
-        public Action<bool> OnBattleEnded { get; set; } // true = win, false = lose
+        public Action<bool> OnBattleEnded { get; set; }
         public UserProfile OriginalProfile { get; set; }
         public int ProfileIndex { get; set; }
         public Guid UserId { get; set; }

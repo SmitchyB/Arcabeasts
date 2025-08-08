@@ -44,12 +44,15 @@ namespace ArcabeastsMain.Pages
             this.Text = "UserProfileSelection";
 
             // flowProfileSlots
-            this.flowProfileSlots.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowProfileSlots.Dock = System.Windows.Forms.DockStyle.None;
             this.flowProfileSlots.FlowDirection = System.Windows.Forms.FlowDirection.LeftToRight;
             this.flowProfileSlots.WrapContents = false;
             this.flowProfileSlots.Padding = new Padding(50);
-            this.flowProfileSlots.AutoScroll = true;
+            this.flowProfileSlots.AutoScroll = false; // Changed from true to false
             this.flowProfileSlots.BackColor = System.Drawing.Color.FromArgb(24, 24, 24);
+
+            // Set the size to be large enough to contain all child controls and their margins
+            this.flowProfileSlots.Size = new System.Drawing.Size(1900, 600);
 
             // panelSelectionScreen
             this.panelSelectionScreen.BackColor = System.Drawing.Color.FromArgb(24, 24, 24);

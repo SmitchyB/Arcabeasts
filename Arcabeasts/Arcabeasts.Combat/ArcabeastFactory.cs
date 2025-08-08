@@ -6,13 +6,15 @@ using System.Collections.Generic;
 
 namespace Arcabeasts.Combat
 {
+    //Purpose: Factory class to create instances of Arcabeasts based on their definitions.
     public static class ArcabeastFactory
     {
-        public static ArcabeastInstance CreateInstance(ArcabeastDefinition def, string displayName, int level, int experience, List<Guid> learnedMoves)
+        // Creates a new instance of an Arcabeast based on the provided definition and parameters.
+        public static ArcabeastInstance CreateInstance(ArcabeastDefinition def, string displayName, int level, int experience, List<Guid> learnedMoves) 
         {
             var baseInstance = new ArcabeastInstance
             {
-                ArcabeastId = def.Id,
+                ArcabeastId = def.Id, 
                 DisplayName = displayName,
                 Level = level,
                 Experience = experience,
@@ -37,7 +39,6 @@ namespace Arcabeasts.Combat
                 LearnedMoveIds = new List<Guid>(learnedMoves),
                 ActiveEffects = new List<ActiveEffect>()
             };
-
             if (def is FireArcabeast fire)
             {
                 return ApplyToSubclass(new FireArcabeastInst
@@ -105,6 +106,7 @@ namespace Arcabeasts.Combat
 
             return baseInstance;
         }
+        // Applies common properties to a subclass of ArcabeastInstance.
         private static T ApplyToSubclass<T>(T target, ArcabeastInstance source) where T : ArcabeastInstance
         {
             target.ArcabeastId = source.ArcabeastId;

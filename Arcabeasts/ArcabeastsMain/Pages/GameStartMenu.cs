@@ -12,30 +12,25 @@ namespace ArcabeastsMain
         {
             InitializeComponent();
         }
-        // Inside GameStartMenu
+        
+        //Play button click event
         private void btnPlay_Click(object sender, EventArgs e)
         {
-            // Try to load or create player data
-            var existingPlayerData = PlayerDataService.LoadOrCreatePlayerData();
-
-            // If it has no UserId yet, generate and save one
-            if (existingPlayerData.UserId == Guid.Empty)
+            var existingPlayerData = PlayerDataService.LoadOrCreatePlayerData(); // Load existing player data or create a new one
+            if (existingPlayerData.UserId == Guid.Empty) // Check if UserId is empty
             {
-                existingPlayerData.UserId = Guid.NewGuid();
-                PlayerDataService.SavePlayerData(existingPlayerData);
+                existingPlayerData.UserId = Guid.NewGuid(); // Assign a new GUID
+                PlayerDataService.SavePlayerData(existingPlayerData); // Save the updated player data
             }
-
-            var profileForm = new UserProfileSelection();
-            profileForm.FormClosed += (s, args) => this.Close(); // closes menu when done
-            this.Hide();
-            profileForm.Show();
+            var profileForm = new UserProfileSelection(); // Create a new instance of UserProfileSelection
+            profileForm.FormClosed += (s, args) => this.Show(); // Show the GameStartMenu again when UserProfileSelection is closed
+            this.Hide(); // Hide the GameStartMenu
+            profileForm.Show(); // Show the UserProfileSelection form
         }
-
-
+        //Click event for the Exit button
         private void btnExit_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            Application.Exit(); // Exit the application
         }
-
     }
 }
